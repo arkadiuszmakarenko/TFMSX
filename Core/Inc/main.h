@@ -1,0 +1,121 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under Ultimate Liberty license
+  * SLA0044, the "License"; You may not use this file except in compliance with
+  * the License. You may obtain a copy of the License at:
+  *                             www.st.com/SLA0044
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __MAIN_H
+#define __MAIN_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f7xx_hal.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
+void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+#define INTSIG23_Pin GPIO_PIN_0
+#define INTSIG23_GPIO_Port GPIOC
+#define INTSIG22_Pin GPIO_PIN_1
+#define INTSIG22_GPIO_Port GPIOC
+#define INTSIG21_Pin GPIO_PIN_2
+#define INTSIG21_GPIO_Port GPIOC
+#define INTSIG20_Pin GPIO_PIN_3
+#define INTSIG20_GPIO_Port GPIOC
+#define INTSIG0_Pin GPIO_PIN_0
+#define INTSIG0_GPIO_Port GPIOA
+#define INTSIG1_Pin GPIO_PIN_1
+#define INTSIG1_GPIO_Port GPIOA
+#define INTSIG2_Pin GPIO_PIN_2
+#define INTSIG2_GPIO_Port GPIOA
+#define INTSIG3_Pin GPIO_PIN_3
+#define INTSIG3_GPIO_Port GPIOA
+#define INTSIG4_Pin GPIO_PIN_4
+#define INTSIG4_GPIO_Port GPIOA
+#define INTSIG5_Pin GPIO_PIN_5
+#define INTSIG5_GPIO_Port GPIOA
+#define INTSIG6_Pin GPIO_PIN_6
+#define INTSIG6_GPIO_Port GPIOA
+#define INTSIG7_Pin GPIO_PIN_7
+#define INTSIG7_GPIO_Port GPIOA
+#define INTSIG8_Pin GPIO_PIN_0
+#define INTSIG8_GPIO_Port GPIOB
+#define INTSIG9_Pin GPIO_PIN_1
+#define INTSIG9_GPIO_Port GPIOB
+#define INTSIG10_Pin GPIO_PIN_2
+#define INTSIG10_GPIO_Port GPIOB
+#define INTSIG16_Pin GPIO_PIN_10
+#define INTSIG16_GPIO_Port GPIOB
+#define INTSIG17_Pin GPIO_PIN_11
+#define INTSIG17_GPIO_Port GPIOB
+#define LED_Pin GPIO_PIN_13
+#define LED_GPIO_Port GPIOB
+#define INTSIG11_Pin GPIO_PIN_3
+#define INTSIG11_GPIO_Port GPIOB
+#define INTSIG12_Pin GPIO_PIN_4
+#define INTSIG12_GPIO_Port GPIOB
+#define INTSIG13_Pin GPIO_PIN_5
+#define INTSIG13_GPIO_Port GPIOB
+#define INTSIG14_Pin GPIO_PIN_6
+#define INTSIG14_GPIO_Port GPIOB
+#define INTSIG15_Pin GPIO_PIN_7
+#define INTSIG15_GPIO_Port GPIOB
+#define INTSIG18_Pin GPIO_PIN_8
+#define INTSIG18_GPIO_Port GPIOB
+#define INTSIG19_Pin GPIO_PIN_9
+#define INTSIG19_GPIO_Port GPIOB
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_H */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
