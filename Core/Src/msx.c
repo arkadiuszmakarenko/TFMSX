@@ -25,7 +25,13 @@ void ProcessMSXKey(uint8_t usbkey)
 void ProcessMSXKeyboard(){
 
 	//Keyboard is not ready
-	if(Appli_state!=APPLICATION_READY) return;
+	if(Appli_state!=APPLICATION_READY)
+	{
+		LL_GPIO_SetOutputPin(LED_GPIO_Port, LED_Pin);
+
+		return;
+	}
+	LL_GPIO_ResetOutputPin(LED_GPIO_Port, LED_Pin);
 
 	//Check if there is keyboard data waiting
 	kb_data = USBH_HID_GetKeybdInfo(&hUsbHostFS);
@@ -35,8 +41,6 @@ void ProcessMSXKeyboard(){
 
 	//reset temp array to zero
 	memset(&MSX_Matrix_temp, 0, sizeof(MSX_Matrix_temp));
-
-
 
 	//process special keys
 	if (kb_data->lctrl || kb_data->rctrl)

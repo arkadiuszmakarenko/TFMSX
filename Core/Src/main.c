@@ -100,6 +100,7 @@ int main(void)
   MX_USB_HOST_Init();
   MX_UART5_Init();
   /* USER CODE BEGIN 2 */
+  LL_GPIO_SetOutputPin(LED_GPIO_Port, LED_Pin);
 
   /* USER CODE END 2 */
 
