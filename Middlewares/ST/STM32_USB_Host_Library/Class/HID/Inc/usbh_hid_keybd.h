@@ -103,11 +103,11 @@ extern "C" {
 #define KEY_NONUS_NUMBER_SIGN_TILDE            0x32
 #define KEY_SEMICOLON_COLON                    0x33
 #define KEY_SINGLE_AND_DOUBLE_QUOTE            0x34
-#define KEY_GRAVE ACCENT AND TILDE             0x35
+#define KEY_GRAVE_ACCENT_AND_TILDE             0x35
 #define KEY_COMMA_AND_LESS                     0x36
 #define KEY_DOT_GREATER                        0x37
 #define KEY_SLASH_QUESTION                     0x38
-#define KEY_CAPS LOCK                          0x39
+#define KEY_CAPS_LOCK                          0x39
 #define KEY_F1                                 0x3A
 #define KEY_F2                                 0x3B
 #define KEY_F3                                 0x3C
