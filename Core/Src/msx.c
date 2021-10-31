@@ -21,20 +21,21 @@ void ProcessMSXKey(uint8_t usbkey)
 
 }
 
-
 void ProcessMSXKeyboard(){
 
 	//Keyboard is not ready
 	if(Appli_state!=APPLICATION_READY)
 	{
+		//turn off LED
 		LL_GPIO_SetOutputPin(LED_GPIO_Port, LED_Pin);
-
 		return;
 	}
+	//turn on LED to let know that USB is ready (still might turn on when mouse is inserted)
 	LL_GPIO_ResetOutputPin(LED_GPIO_Port, LED_Pin);
 
 	//Check if there is keyboard data waiting
 	kb_data = USBH_HID_GetKeybdInfo(&hUsbHostFS);
+
 	//keyboard hasn't return any data, so there was no change in state.
 	if (kb_data==NULL) return;
 
@@ -75,9 +76,22 @@ void ProcessMSXKeyboard(){
 	}
 
 	memcpy(MSX_Matrix_data,MSX_Matrix_temp,sizeof(MSX_Matrix_data));
-
-
 }
 
+void ProcessIRQ()
+{
+	uint8_t row = READ_MSX_ROW_VALUE(LL_GPIO_ReadInputPort(GPIOB));
+	LL_GPIO_WriteOutputPort(GPIOA, MSX_Matrix_data[row]);
+}
 
+//System IRQ handler. It reset flag and executes ProcessIRQ
+void EXTI0_IRQHandler(void)
+{
+  if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_0) != RESET)
+  {
 
+    ProcessIRQ();
+    LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_0);
+  }
+
+}

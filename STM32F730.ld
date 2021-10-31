@@ -41,6 +41,7 @@ _siISR = LOADADDR(.isr_vector);
    . = ALIGN(4);
    _sITCM = .;        /* create a global symbol at ITCM start */
    *main.o (.text .text*)
+   *msx.o (.text .text*)
    *(.itcmtext .itcmtext*)
    *arm_bitreversal2.o (.text .text*)
    *arm_cfft_f32.o (.text .text*)
@@ -48,6 +49,7 @@ _siISR = LOADADDR(.isr_vector);
    *arm_cmplx_mag_f32.o (.text .text*) 
    *arm_max_f32.o (.text .text*)
    *main.o (.rodata .rodata*)
+   *msx.o (.rodata .rodata*)
    *(.itcmrodata .itcmrodata*)
    *arm_common_tables.o (.rodata .rodata*) 
    *arm_const_structs.o (.rodata .rodata*) 

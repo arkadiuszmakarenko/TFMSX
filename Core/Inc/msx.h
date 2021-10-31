@@ -14,6 +14,9 @@ HID_KEYBD_Info_TypeDef *kb_data;
 
 void ProcessMSXKeyboard();
 void InitMSXKeyboard();
+void ProcessIRQ();
+
+#define READ_MSX_ROW_VALUE(val) ((val>>5)&0xF) //
 
 
 //MSX International Matrix
@@ -97,7 +100,7 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		//B		A		DEAD	/ ?		. >		, <		` ~		' "
 		{KEY_B,									KB_ROW_2,		KB_BIT_7},
 		{KEY_A,									KB_ROW_2,		KB_BIT_6},
-		{KEY_GRAVE_ACCENT_AND_TILDE,			KB_ROW_2,		KB_BIT_5},
+		{0x35,									KB_ROW_2,		KB_BIT_5}, //KEY_GRAVE_ACCENT_AND_TILDE
 		{KEY_BACKSLASH_VERTICAL_BAR,			KB_ROW_2,		KB_BIT_4},
 		{KEY_SLASH_QUESTION,					KB_ROW_2,		KB_BIT_3},
 		{KEY_DOT_GREATER,						KB_ROW_2,		KB_BIT_2},
@@ -135,16 +138,16 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_F2,								KB_ROW_6,		KB_BIT_6},
 		{KEY_F1,								KB_ROW_6,		KB_BIT_5},
 		{KEY_LEFT_GUI,							KB_ROW_6,		KB_BIT_4},
-		{KEY_CAPS_LOCK,							KB_ROW_6,		KB_BIT_3},
+		{0x39, 									KB_ROW_6,		KB_BIT_3},//KEY_CAPS LOCK,
 		{KEY_RIGHT_GUI,							KB_ROW_6,		KB_BIT_2},
 		{KEY_LEFTCONTROL,						KB_ROW_6,		KB_BIT_1},
 		{KEY_RIGHTCONTROL,						KB_ROW_6,		KB_BIT_1},
 		{KEY_LEFTSHIFT,							KB_ROW_6,		KB_BIT_0},
 		{KEY_RIGHTSHIFT,						KB_ROW_6,		KB_BIT_0},
 		//RET		SELECT	BS		STOP	TAB		ESC		F5		F4
-		{KEY_RETURN,							KB_ROW_7,		KB_BIT_7},
+		{KEY_ENTER,								KB_ROW_7,		KB_BIT_7},
 		{KEY_SELECT,							KB_ROW_7,		KB_BIT_6},
-		{KEY_KEYPAD_BACKSPACE,					KB_ROW_7,		KB_BIT_5},
+		{KEY_BACKSPACE,							KB_ROW_7,		KB_BIT_5},
 		{KEY_STOP,								KB_ROW_7,		KB_BIT_4},
 		{KEY_TAB,								KB_ROW_7,		KB_BIT_3},
 		{KEY_ESCAPE,							KB_ROW_7,		KB_BIT_2},

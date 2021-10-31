@@ -70,12 +70,7 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define INTSIG23_Pin LL_GPIO_PIN_0
 #define INTSIG23_GPIO_Port GPIOC
-#define INTSIG22_Pin LL_GPIO_PIN_1
-#define INTSIG22_GPIO_Port GPIOC
-#define INTSIG21_Pin LL_GPIO_PIN_2
-#define INTSIG21_GPIO_Port GPIOC
-#define INTSIG20_Pin LL_GPIO_PIN_3
-#define INTSIG20_GPIO_Port GPIOC
+#define INTSIG23_EXTI_IRQn EXTI0_IRQn
 #define INTSIG0_Pin LL_GPIO_PIN_0
 #define INTSIG0_GPIO_Port GPIOA
 #define INTSIG1_Pin LL_GPIO_PIN_1
@@ -92,22 +87,8 @@ void Error_Handler(void);
 #define INTSIG6_GPIO_Port GPIOA
 #define INTSIG7_Pin LL_GPIO_PIN_7
 #define INTSIG7_GPIO_Port GPIOA
-#define INTSIG8_Pin LL_GPIO_PIN_0
-#define INTSIG8_GPIO_Port GPIOB
-#define INTSIG9_Pin LL_GPIO_PIN_1
-#define INTSIG9_GPIO_Port GPIOB
-#define INTSIG10_Pin LL_GPIO_PIN_2
-#define INTSIG10_GPIO_Port GPIOB
-#define INTSIG16_Pin LL_GPIO_PIN_10
-#define INTSIG16_GPIO_Port GPIOB
-#define INTSIG17_Pin LL_GPIO_PIN_11
-#define INTSIG17_GPIO_Port GPIOB
 #define LED_Pin LL_GPIO_PIN_13
 #define LED_GPIO_Port GPIOB
-#define INTSIG11_Pin LL_GPIO_PIN_3
-#define INTSIG11_GPIO_Port GPIOB
-#define INTSIG12_Pin LL_GPIO_PIN_4
-#define INTSIG12_GPIO_Port GPIOB
 #define INTSIG13_Pin LL_GPIO_PIN_5
 #define INTSIG13_GPIO_Port GPIOB
 #define INTSIG14_Pin LL_GPIO_PIN_6
@@ -116,8 +97,6 @@ void Error_Handler(void);
 #define INTSIG15_GPIO_Port GPIOB
 #define INTSIG18_Pin LL_GPIO_PIN_8
 #define INTSIG18_GPIO_Port GPIOB
-#define INTSIG19_Pin LL_GPIO_PIN_9
-#define INTSIG19_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
