@@ -148,7 +148,7 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_ENTER,								KB_ROW_7,		KB_BIT_7},
 		{KEY_SELECT,							KB_ROW_7,		KB_BIT_6},
 		{KEY_BACKSPACE,							KB_ROW_7,		KB_BIT_5},
-		{KEY_STOP,								KB_ROW_7,		KB_BIT_4},
+		{KEY_PAUSE,								KB_ROW_7,		KB_BIT_4},
 		{KEY_TAB,								KB_ROW_7,		KB_BIT_3},
 		{KEY_ESCAPE,							KB_ROW_7,		KB_BIT_2},
 		{KEY_F5,								KB_ROW_7,		KB_BIT_1},
