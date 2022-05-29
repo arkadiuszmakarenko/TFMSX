@@ -52,6 +52,5 @@ Mkfile.old
 dkms.conf
 
 F722Debug/
-F722Release/
+
 F730Debug/
-F730Release/

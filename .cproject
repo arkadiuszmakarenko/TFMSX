@@ -355,6 +355,10 @@
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="F722Release"/>
+		<configuration configurationName="F722Debug"/>
+		<configuration configurationName="F730Release"/>
+		<configuration configurationName="F730Debug"/>
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/TFMSX"/>
 		</configuration>
