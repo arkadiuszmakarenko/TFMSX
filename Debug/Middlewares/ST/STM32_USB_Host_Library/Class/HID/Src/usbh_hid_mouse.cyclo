@@ -1,0 +1,4 @@
+usbh_hid_mouse.c:93:10:collect_bits	7
+usbh_hid_mouse.c:146:20:USBH_HID_MouseInit	2
+usbh_hid_mouse.c:180:25:USBH_HID_GetMouseInfo	2
+usbh_hid_mouse.c:198:27:USBH_HID_MouseDecode	13

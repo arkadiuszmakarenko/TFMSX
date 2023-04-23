@@ -1,0 +1,4 @@
+../USB_HOST/App/usb_host.c:70:6:MX_USB_HOST_Init	8	static
+../USB_HOST/App/usb_host.c:114:6:MX_USB_HOST_Process	8	static
+../USB_HOST/App/usb_host.c:123:13:USBH_UserProcess1	16	static
+../USB_HOST/App/usb_host.c:149:13:USBH_UserProcess2	16	static

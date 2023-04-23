@@ -1,0 +1,3 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.c:124:20:USBH_HID_GamepadInit	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.c:150:27:USBH_HID_GetGamepadInfo	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.c:171:27:USBH_HID_GamepadDecode	112	static

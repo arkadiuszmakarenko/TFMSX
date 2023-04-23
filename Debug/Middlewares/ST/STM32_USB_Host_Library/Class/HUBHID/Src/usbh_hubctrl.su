@@ -1,0 +1,15 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:5:20:USBH_HUB_GetDescriptor	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:22:6:USBH_HUB_GetHUBStatus	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:42:20:USBH_HUB_GetPortStatus	32	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:86:20:USBH_HUB_SetPortFeature	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:104:20:USBH_HUB_ClearPortFeature	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:122:20:USBH_HUB_Get_DevDesc	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:139:20:USBH_HUB_Get_CfgDesc	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:159:20:USBH_HUB_Get_StringDesc	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:179:7:USBH_HUB_ParseDevDesc	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:206:7:USBH_HUB_ParseHubDescriptor	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:221:7:USBH_HUB_ParseHUBStatus	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:229:8:USBH_HUB_ParsePortStatus	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:235:20:USBH_HUB_GetHIDDescriptor	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:247:20:USBH_HUB_GetHIDReportDescriptor	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.c:261:20:USBH_HUB_SetIdle	40	static

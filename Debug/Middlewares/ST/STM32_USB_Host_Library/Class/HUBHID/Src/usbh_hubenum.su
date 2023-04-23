@@ -1,0 +1,3 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubenum.c:9:20:USBH_HUB_Device_Enum	48	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubenum.c:412:20:USBH_HUB_Device_Process	40	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubenum.c:491:6:USBH_HUB_SETUP_PIPES	48	static
