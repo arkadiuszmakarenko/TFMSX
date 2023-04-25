@@ -106,6 +106,20 @@ USB_HID_CLASS, USBH_HID_InterfaceInit, USBH_HID_InterfaceDeInit,
 		USBH_HID_ClassRequest, USBH_HID_Process, USBH_HID_SOFProcess, 0, 0, 0, {
 				0 } };
 
+USBH_ClassTypeDef  HID_ClassHS =
+{
+  "HID",
+  USB_HID_CLASS,
+  USBH_HID_InterfaceInit,
+  USBH_HID_InterfaceDeInit,
+  USBH_HID_ClassRequest,
+  USBH_HID_Process,
+  USBH_HID_SOFProcess,
+  0,
+  0,
+  0,
+  {0}
+};
 /**
  * @}
  */

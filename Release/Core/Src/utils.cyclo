@@ -1,0 +1,6 @@
+utils.c:24:10:USBH_Get_Device_Data_Host	20
+utils.c:4:10:USBH_Get_Device_Data	3
+utils.c:162:6:SetPinsOn	1
+utils.c:215:6:SetPinsOff	1
+utils.c:110:6:SetupJoystick_Host	9
+utils.c:91:6:SetupJoystick	3

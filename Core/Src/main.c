@@ -25,6 +25,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "msx.h"
+#include "joystick.h"
 
 /* USER CODE END Includes */
 
@@ -94,6 +96,8 @@ int main(void)
   MX_USB_HOST_Init();
   MX_DAC_Init();
   /* USER CODE BEGIN 2 */
+  InitMSXKeyboard();
+
 
   /* USER CODE END 2 */
 
@@ -105,7 +109,11 @@ int main(void)
     MX_USB_HOST_Process();
 
     /* USER CODE BEGIN 3 */
+     ProcessMSXKeyboard();
+     ProcessJoystick();
+
   }
+
   /* USER CODE END 3 */
 }
 

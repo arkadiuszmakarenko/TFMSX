@@ -1,14 +1,28 @@
 #include "utils.h"
 #include "usbh_hub.h"
 
-
-
 uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef deviceType)
 {
+	USBH_HandleTypeDef *phost = &hUsbHostFS;
+	USBH_HandleTypeDef *phostHS = &hUsbHostHS;
 
-  USBH_HandleTypeDef *phost = &hUsbHostFS;
+	if(phost->gState == HOST_CLASS)
+	{
+		return USBH_Get_Device_Data_Host(phost,deviceType);
+	}
+
+	if(phostHS->gState == HOST_CLASS)
+	{
+		return USBH_Get_Device_Data_Host(phostHS,deviceType);
+	}
+
+	return NULL;
 
 
+}
+
+uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef deviceType)
+{
 
   //handle device when connected to Hub
   if (phost->device.DevDesc.bDeviceClass == 9 && Appli_state == APPLICATION_READY)
@@ -62,7 +76,7 @@ uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef deviceType)
             return (uint8_t *)USBH_HID_GetGamepadInfo(phost);
           }
         }
-        
+
 
 
       }
@@ -74,10 +88,27 @@ return NULL;
 
 
 
-//void SetupJoystick(USBH_HandleTypeDef* phost)
 void SetupJoystick()
 {
-  USBH_HandleTypeDef *phost = &hUsbHostFS;
+	USBH_HandleTypeDef *phost = &hUsbHostFS;
+		USBH_HandleTypeDef *phostHS = &hUsbHostHS;
+
+		if(phost->gState == HOST_CLASS)
+		{
+			SetupJoystick_Host(phost);
+		}
+
+		if(phostHS->gState == HOST_CLASS)
+		{
+			SetupJoystick_Host(phostHS);
+		}
+
+}
+
+
+
+void SetupJoystick_Host(USBH_HandleTypeDef *phost)
+{
   
   //handle device when connected to Hub
   if (phost->device.DevDesc.bDeviceClass == 9 && Appli_state == APPLICATION_READY)

@@ -1,0 +1,6 @@
+usbh_hub.c:182:27:USBH_HUB_Process	15
+usbh_hub.c:78:27:USBH_HUB_InterfaceDeInit	5
+usbh_hub.c:109:27:USBH_HUB_ClassRequest	14
+usbh_hub.c:29:27:USBH_HUB_InterfaceInit	4
+usbh_hub.c:355:6:USBH_Next_Interface_Port	5
+usbh_hub.c:287:27:USBH_HUB_SOFProcess	4

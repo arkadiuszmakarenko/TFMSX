@@ -77,7 +77,10 @@ void ProcessMSXKeyboard(){
 void ProcessIRQ()
 {
 	uint8_t row = LL_GPIO_ReadInputPort(GPIOA)&0xF;
-	LL_GPIO_WriteOutputPort(GPIOB, ~MSX_Matrix_data[row]);
+	uint16_t value = ~MSX_Matrix_data[row] & 0x00FF;
+	uint16_t PortValue = LL_GPIO_ReadOutputPort(GPIOB)& 0xFF00;
+	value = value | PortValue;
+	LL_GPIO_WriteOutputPort(GPIOB, value);
 }
 
 //System IRQ handler. It reset flag and executes ProcessIRQ

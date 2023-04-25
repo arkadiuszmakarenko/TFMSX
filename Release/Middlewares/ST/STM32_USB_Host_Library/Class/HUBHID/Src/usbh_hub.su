@@ -1,0 +1,6 @@
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:182:27:USBH_HUB_Process	48	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:78:27:USBH_HUB_InterfaceDeInit	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:109:27:USBH_HUB_ClassRequest	16	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:29:27:USBH_HUB_InterfaceInit	24	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:355:6:USBH_Next_Interface_Port	0	static
+../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:287:27:USBH_HUB_SOFProcess	16	static

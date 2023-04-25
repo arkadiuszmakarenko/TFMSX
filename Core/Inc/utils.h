@@ -22,13 +22,16 @@ typedef struct
 } FIFO_Utils_TypeDef;
 
 uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef DeviceType);
+uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef deviceType);
 
-void SetJoystickPins(USBH_HandleTypeDef pHost);
+void SetupJoystick();
+void SetupJoystick_Host(USBH_HandleTypeDef *phost);
 
 void SetPinsOn();
 void SetPinsOff();
 
 extern USBH_HandleTypeDef hUsbHostFS;
+extern USBH_HandleTypeDef hUsbHostHS;
 extern ApplicationTypeDef Appli_state;
 
 #endif

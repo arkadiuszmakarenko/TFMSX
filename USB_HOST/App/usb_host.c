@@ -25,7 +25,7 @@
 #include "usbh_hid.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "usbh_hub.h"
 /* USER CODE END Includes */
 
 /* USER CODE BEGIN PV */
@@ -78,7 +78,7 @@ void MX_USB_HOST_Init(void)
   {
     Error_Handler();
   }
-  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASS) != USBH_OK)
+  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASSHS) != USBH_OK)
   {
     Error_Handler();
   }
@@ -99,6 +99,12 @@ void MX_USB_HOST_Init(void)
   {
     Error_Handler();
   }
+
+  if (USBH_RegisterClass(&hUsbHostFS, USBH_HUB_CLASS) != USBH_OK)
+{
+  Error_Handler();
+}
+
   if (USBH_Start(&hUsbHostFS) != USBH_OK)
   {
     Error_Handler();
@@ -130,10 +136,12 @@ static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
 
   case HOST_USER_DISCONNECTION:
   Appli_state = APPLICATION_DISCONNECT;
+  LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_13);
   break;
 
   case HOST_USER_CLASS_ACTIVE:
   Appli_state = APPLICATION_READY;
+  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_13);
   break;
 
   case HOST_USER_CONNECTION:
@@ -156,10 +164,14 @@ static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
 
   case HOST_USER_DISCONNECTION:
   Appli_state = APPLICATION_DISCONNECT;
+  LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_13);
   break;
 
   case HOST_USER_CLASS_ACTIVE:
   Appli_state = APPLICATION_READY;
+  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_13);
+
+
   break;
 
   case HOST_USER_CONNECTION:

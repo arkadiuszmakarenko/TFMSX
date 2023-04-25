@@ -1,0 +1,3 @@
+usbh_hub_mouse.c:9:20:USBH_HUB_MouseInit	1
+usbh_hub_mouse.c:47:20:USBH_HUB_MouseDecode	6
+usbh_hub_mouse.c:34:25:USBH_HUB_GetMouseInfo	1
