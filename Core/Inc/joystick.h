@@ -7,6 +7,9 @@
 #include "usbh_hid_mouse.h"
 #include "utils.h"
 
+extern USBH_HandleTypeDef hUsbHostFS;
+extern USBH_HandleTypeDef hUsbHostHS;
+
 void ProcessJoystick();
 
 #endif

@@ -111,6 +111,12 @@ void MX_USB_HOST_Init(void)
   }
   /* USER CODE BEGIN USB_HOST_Init_PostTreatment */
 
+  hUsbHostHS.pActiveClass->pData[0] = NULL;
+  hUsbHostHS.pActiveClass->pData[1] = NULL;
+  hUsbHostFS.pActiveClass->pData[0] = NULL;
+  hUsbHostFS.pActiveClass->pData[1] = NULL;
+
+
   /* USER CODE END USB_HOST_Init_PostTreatment */
 }
 

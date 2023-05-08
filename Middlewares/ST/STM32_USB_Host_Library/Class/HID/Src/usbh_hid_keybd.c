@@ -96,6 +96,7 @@ static USBH_StatusTypeDef USBH_HID_KeybdDecode(USBH_HandleTypeDef *phost);
 HID_KEYBD_Info_TypeDef     keybd_info;
 uint32_t                   keybd_rx_report_buf[2];
 uint32_t                   keybd_report_data[2];
+uint8_t					   keybd_fifo_buf[256];
 
 static const HID_Report_ItemTypedef imp_0_lctrl =
 {
@@ -347,7 +348,8 @@ USBH_StatusTypeDef USBH_HID_KeybdInit(USBH_HandleTypeDef *phost)
     HID_Handle->length = (sizeof(keybd_report_data));
   }
   HID_Handle->pData = (uint8_t *)(void *)keybd_rx_report_buf;
-  USBH_HID_FifoInit(&HID_Handle->fifo, phost->device.Data, HID_QUEUE_SIZE * sizeof(keybd_report_data));
+
+  USBH_HID_FifoInit(&HID_Handle->fifo, keybd_fifo_buf, HID_QUEUE_SIZE * sizeof(keybd_report_data));
 
   return USBH_OK;
 }

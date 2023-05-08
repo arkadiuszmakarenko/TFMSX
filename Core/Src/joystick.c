@@ -6,7 +6,7 @@ void ProcessJoystick() {
 
 			
 			SetupJoystick();
-			HID_gamepad_Info_TypeDef *joymap = (HID_gamepad_Info_TypeDef *)USBH_Get_Device_Data(HUB_GAMEPAD);
+			HID_gamepad_Info_TypeDef *joymap = (HID_gamepad_Info_TypeDef *)USBH_Get_Device_Data_Host(&hUsbHostHS,HUB_GAMEPAD);
 
 
 			if (joymap == NULL) return;

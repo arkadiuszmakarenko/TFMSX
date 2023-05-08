@@ -368,9 +368,12 @@ static USBH_StatusTypeDef USBH_HID_InterfaceInit(USBH_HandleTypeDef *phost) {
 				phost->pActiveClass->iface_init = IFACE_READHID;
 			} else {
 				status = USBH_OK;
+				phost->device.current_interface = 0;
 			}
 		} else {
 			status = USBH_OK;
+			phost->device.current_interface = 0;
+
 		}
 	}
 		break;

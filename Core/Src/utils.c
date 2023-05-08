@@ -5,18 +5,19 @@ uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef deviceType)
 {
 	USBH_HandleTypeDef *phost = &hUsbHostFS;
 	USBH_HandleTypeDef *phostHS = &hUsbHostHS;
+	uint8_t *pnt = NULL;
 
 	if(phost->gState == HOST_CLASS)
 	{
-		return USBH_Get_Device_Data_Host(phost,deviceType);
+		pnt = USBH_Get_Device_Data_Host(phost,deviceType);
 	}
 
 	if(phostHS->gState == HOST_CLASS)
 	{
-		return USBH_Get_Device_Data_Host(phostHS,deviceType);
+		pnt = USBH_Get_Device_Data_Host(phostHS,deviceType);
 	}
 
-	return NULL;
+	return pnt;
 
 
 }
@@ -90,26 +91,37 @@ return NULL;
 
 void SetupJoystick()
 {
+
+	uint8_t JoystickFound = 0;
 	USBH_HandleTypeDef *phost = &hUsbHostFS;
-		USBH_HandleTypeDef *phostHS = &hUsbHostHS;
+	USBH_HandleTypeDef *phostHS = &hUsbHostHS;
 
-		if(phost->gState == HOST_CLASS)
-		{
-			SetupJoystick_Host(phost);
-		}
+	if(phost->gState == HOST_CLASS)
+	{
+		JoystickFound = SetupJoystick_Host(phost);
+	}
 
-		if(phostHS->gState == HOST_CLASS)
-		{
-			SetupJoystick_Host(phostHS);
-		}
+	if(phostHS->gState == HOST_CLASS)
+	{
+		JoystickFound = SetupJoystick_Host(phostHS);
+	}
+
+	if (JoystickFound == 1)
+	{
+		SetPinsOn();
+	}
+	else
+	{
+		SetPinsOff();
+	}
 
 }
 
 
 
-void SetupJoystick_Host(USBH_HandleTypeDef *phost)
+uint8_t SetupJoystick_Host(USBH_HandleTypeDef *phost)
 {
-  
+  uint8_t JoystickFound = 0;
   //handle device when connected to Hub
   if (phost->device.DevDesc.bDeviceClass == 9 && Appli_state == APPLICATION_READY)
   {
@@ -121,9 +133,8 @@ void SetupJoystick_Host(USBH_HandleTypeDef *phost)
       {
         if (HUB_Handle->Port[port].Interface[interface].DeviceType == HUB_GAMEPAD)
         {
-            //TURN ON PINS and return;
-            SetPinsOn();
-            return;
+        	JoystickFound = 1;
+            return JoystickFound;
         }
       }
 
@@ -142,18 +153,15 @@ void SetupJoystick_Host(USBH_HandleTypeDef *phost)
         {
 
             //TURN ON PINS and return
-            SetPinsOn();
-            return;
+        	JoystickFound = 1;
+            return JoystickFound;
         }
-        
-
-
       }
 
   }
 
   //If we are here, no joystick detected change pins back to Input
-  SetPinsOff();
+  return JoystickFound;
 
 
 }

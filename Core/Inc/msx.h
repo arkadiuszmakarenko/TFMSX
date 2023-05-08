@@ -6,6 +6,8 @@
 #include "usb_host.h"
 
 extern USBH_HandleTypeDef hUsbHostFS;
+extern USBH_HandleTypeDef hUsbHostHS;
+
 extern HID_KEYBD_Info_TypeDef *USBH_HID_GetKeybdInfo(USBH_HandleTypeDef *phost);
 extern ApplicationTypeDef Appli_state;
 

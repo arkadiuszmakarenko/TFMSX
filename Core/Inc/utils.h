@@ -24,8 +24,10 @@ typedef struct
 uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef DeviceType);
 uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef deviceType);
 
+
+
 void SetupJoystick();
-void SetupJoystick_Host(USBH_HandleTypeDef *phost);
+uint8_t SetupJoystick_Host(USBH_HandleTypeDef *phost);
 
 void SetPinsOn();
 void SetPinsOff();

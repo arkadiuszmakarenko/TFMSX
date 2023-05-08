@@ -1,6 +1,6 @@
-../Core/Src/utils.c:4:10:USBH_Get_Device_Data	24	static
-../Core/Src/utils.c:24:10:USBH_Get_Device_Data_Host	40	static
-../Core/Src/utils.c:91:6:SetupJoystick	16	static
-../Core/Src/utils.c:110:6:SetupJoystick_Host	40	static
-../Core/Src/utils.c:162:6:SetPinsOn	32	static
-../Core/Src/utils.c:215:6:SetPinsOff	32	static
+../Core/Src/utils.c:4:10:USBH_Get_Device_Data	32	static
+../Core/Src/utils.c:25:10:USBH_Get_Device_Data_Host	40	static
+../Core/Src/utils.c:92:6:SetupJoystick	24	static
+../Core/Src/utils.c:122:9:SetupJoystick_Host	40	static
+../Core/Src/utils.c:170:6:SetPinsOn	32	static
+../Core/Src/utils.c:223:6:SetPinsOff	32	static
