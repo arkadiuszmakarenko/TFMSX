@@ -77,7 +77,7 @@ U.K. matrix (QWERTY with a "£" key)
 
 
 
-#define MSX_KEYS_SIZE 90
+#define MSX_KEYS_SIZE 91
 
 // Array of 3 elements USB_KEYCODE, MSX_ROW, MSX_BIT
 static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
@@ -95,7 +95,7 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_SEMICOLON_COLON,					KB_ROW_1,		KB_BIT_7},
 		{KEY_CBRACKET_AND_CBRACE,				KB_ROW_1,		KB_BIT_6},
 		{KEY_OBRACKET_AND_OBRACE ,				KB_ROW_1,		KB_BIT_5},
-		{KEY_BACKSLASH_VERTICAL_BAR,			KB_ROW_1,		KB_BIT_4},
+		{KEY_NONUS_BACK_SLASH_VERTICAL_BAR,		KB_ROW_1,		KB_BIT_4},
 		{KEY_EQUAL_PLUS,						KB_ROW_1,		KB_BIT_3},
 		{KEY_MINUS_UNDERSCORE,					KB_ROW_1,		KB_BIT_2},
 		{KEY_9_OPARENTHESIS,					KB_ROW_1,		KB_BIT_1},
@@ -104,10 +104,10 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_B,									KB_ROW_2,		KB_BIT_7},
 		{KEY_A,									KB_ROW_2,		KB_BIT_6},
 		{0x35,									KB_ROW_2,		KB_BIT_5}, //KEY_GRAVE_ACCENT_AND_TILDE
-		{KEY_BACKSLASH_VERTICAL_BAR,			KB_ROW_2,		KB_BIT_4},
-		{KEY_SLASH_QUESTION,					KB_ROW_2,		KB_BIT_3},
-		{KEY_DOT_GREATER,						KB_ROW_2,		KB_BIT_2},
-		{KEY_COMMA_AND_LESS,					KB_ROW_2,		KB_BIT_1},
+		{KEY_SLASH_QUESTION,					KB_ROW_2,		KB_BIT_4},
+		{KEY_DOT_GREATER,						KB_ROW_2,		KB_BIT_3},
+		{KEY_COMMA_AND_LESS,					KB_ROW_2,		KB_BIT_2},
+		{KEY_NONUS_NUMBER_SIGN_TILDE,			KB_ROW_2,		KB_BIT_1},
 		{KEY_SINGLE_AND_DOUBLE_QUOTE,			KB_ROW_2,		KB_BIT_0},
 		//J		I		H		G		F		E		D		C
 		{KEY_J,									KB_ROW_3,		KB_BIT_7},
@@ -147,9 +147,11 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_RIGHTCONTROL,						KB_ROW_6,		KB_BIT_1},
 		{KEY_LEFTSHIFT,							KB_ROW_6,		KB_BIT_0},
 		{KEY_RIGHTSHIFT,						KB_ROW_6,		KB_BIT_0},
+
+		{KEY_F8,								KB_ROW_6,		0b00010111}, //ctlr+shift+graph+code
 		//RET		SELECT	BS		STOP	TAB		ESC		F5		F4
 		{KEY_ENTER,								KB_ROW_7,		KB_BIT_7},
-		{KEY_SELECT,							KB_ROW_7,		KB_BIT_6},
+		{KEY_F6,								KB_ROW_7,		KB_BIT_6},
 		{KEY_BACKSPACE,							KB_ROW_7,		KB_BIT_5},
 		{KEY_PAUSE,								KB_ROW_7,		KB_BIT_4},
 		{KEY_TAB,								KB_ROW_7,		KB_BIT_3},

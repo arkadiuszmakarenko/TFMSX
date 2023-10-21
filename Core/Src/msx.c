@@ -59,10 +59,10 @@ void ProcessMSXKeyboard(){
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_4;
 	}
 
-	if (kb_data->rgui)
+	if (kb_data->ralt)
 	{
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_2;
-			//{KEY_RIGHT_GUI,							KB_ROW_6,		KB_BIT_2},
+			//{GRAPH,							KB_ROW_6,		KB_BIT_2},
 	}
 
 	//Interate over all keys - max 6 pressed keys at once

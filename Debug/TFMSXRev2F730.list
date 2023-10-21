@@ -7,23 +7,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         0000def4  080001e0  080001e0  000101e0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       00000370  0800e0d4  0800e0d4  0001e0d4  2**2
+  2 .rodata       00000374  0800e0d4  0800e0d4  0001e0d4  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  0800e444  0800e444  000200ec  2**0
+  3 .ARM.extab    00000000  0800e448  0800e448  000200ec  2**0
                   CONTENTS
-  4 .ARM          00000008  0800e444  0800e444  0001e444  2**2
+  4 .ARM          00000008  0800e448  0800e448  0001e448  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .preinit_array 00000000  0800e44c  0800e44c  000200ec  2**0
+  5 .preinit_array 00000000  0800e450  0800e450  000200ec  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  0800e44c  0800e44c  0001e44c  2**2
+  6 .init_array   00000004  0800e450  0800e450  0001e450  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  7 .fini_array   00000004  0800e450  0800e450  0001e450  2**2
+  7 .fini_array   00000004  0800e454  0800e454  0001e454  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .data         000000ec  20000000  0800e454  00020000  2**2
+  8 .data         000000ec  20000000  0800e458  00020000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          00001154  200000ec  0800e540  000200ec  2**2
+  9 .bss          00001154  200000ec  0800e544  000200ec  2**2
                   ALLOC
- 10 ._user_heap_stack 00004000  20001240  0800e540  00021240  2**0
+ 10 ._user_heap_stack 00004000  20001240  0800e544  00021240  2**0
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  000200ec  2**0
                   CONTENTS, READONLY
@@ -39,11 +39,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   0002d2ba  00000000  00000000  00088bc0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000f6771  00000000  00000000  000b5e7a  2**0
+ 18 .debug_str    000f676e  00000000  00000000  000b5e7a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  001ac5eb  2**0
+ 19 .comment      00000050  00000000  00000000  001ac5e8  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00007410  00000000  00000000  001ac63c  2**2
+ 20 .debug_frame  00007410  00000000  00000000  001ac638  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -2290,7 +2290,7 @@ void ProcessMSXKey(uint8_t usbkey)
  8001070:	3301      	adds	r3, #1
  8001072:	73fb      	strb	r3, [r7, #15]
  8001074:	7bfb      	ldrb	r3, [r7, #15]
- 8001076:	2b59      	cmp	r3, #89	; 0x59
+ 8001076:	2b5a      	cmp	r3, #90	; 0x5a
  8001078:	d9cc      	bls.n	8001014 <ProcessMSXKey+0x10>
 		}
 	}
@@ -2389,9 +2389,9 @@ void ProcessMSXKeyboard(){
  80010fa:	6193      	str	r3, [r2, #24]
 	}
 
-	if (kb_data->rgui)
+	if (kb_data->ralt)
  80010fc:	683b      	ldr	r3, [r7, #0]
- 80010fe:	7a1b      	ldrb	r3, [r3, #8]
+ 80010fe:	79db      	ldrb	r3, [r3, #7]
  8001100:	2b00      	cmp	r3, #0
  8001102:	d005      	beq.n	8001110 <ProcessMSXKeyboard+0x80>
 	{
@@ -2401,7 +2401,7 @@ void ProcessMSXKeyboard(){
  8001108:	f043 0304 	orr.w	r3, r3, #4
  800110c:	4a16      	ldr	r2, [pc, #88]	; (8001168 <ProcessMSXKeyboard+0xd8>)
  800110e:	6193      	str	r3, [r2, #24]
-			//{KEY_RIGHT_GUI,							KB_ROW_6,		KB_BIT_2},
+			//{GRAPH,							KB_ROW_6,		KB_BIT_2},
 	}
 
 	//Interate over all keys - max 6 pressed keys at once
@@ -4393,7 +4393,7 @@ LoopFillZerobss:
   ldr r1, =_edata
  8001b5c:	200000ec 	.word	0x200000ec
   ldr r2, =_sidata
- 8001b60:	0800e454 	.word	0x0800e454
+ 8001b60:	0800e458 	.word	0x0800e458
   ldr r2, =_sbss
  8001b64:	200000ec 	.word	0x200000ec
   ldr r4, =_ebss
@@ -11755,7 +11755,7 @@ HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, ui
  8004922:	bf00      	nop
  8004924:	40023c00 	.word	0x40023c00
  8004928:	40023800 	.word	0x40023800
- 800492c:	0800e1ec 	.word	0x0800e1ec
+ 800492c:	0800e1f0 	.word	0x0800e1f0
  8004930:	20000000 	.word	0x20000000
  8004934:	20000004 	.word	0x20000004
 
@@ -12033,7 +12033,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
  8004b18:	4618      	mov	r0, r3
  8004b1a:	bd80      	pop	{r7, pc}
  8004b1c:	40023800 	.word	0x40023800
- 8004b20:	0800e1fc 	.word	0x0800e1fc
+ 8004b20:	0800e200 	.word	0x0800e200
 
 08004b24 <HAL_RCC_GetPCLK2Freq>:
   * @note   Each time PCLK2 changes, this function must be called to update the
@@ -12059,7 +12059,7 @@ uint32_t HAL_RCC_GetPCLK2Freq(void)
  8004b40:	4618      	mov	r0, r3
  8004b42:	bd80      	pop	{r7, pc}
  8004b44:	40023800 	.word	0x40023800
- 8004b48:	0800e1fc 	.word	0x0800e1fc
+ 8004b48:	0800e200 	.word	0x0800e200
 
 08004b4c <HAL_RCC_GetClockConfig>:
   * will be configured.
@@ -23463,16 +23463,16 @@ static USBH_StatusTypeDef USBH_HID_KeybdDecode(USBH_HandleTypeDef *phost)
  80090be:	bf00      	nop
  80090c0:	2000030c 	.word	0x2000030c
  80090c4:	01010000 	.word	0x01010000
- 80090c8:	0800e204 	.word	0x0800e204
+ 80090c8:	0800e208 	.word	0x0800e208
  80090cc:	200002f4 	.word	0x200002f4
- 80090d0:	0800e224 	.word	0x0800e224
- 80090d4:	0800e244 	.word	0x0800e244
- 80090d8:	0800e264 	.word	0x0800e264
- 80090dc:	0800e284 	.word	0x0800e284
- 80090e0:	0800e2a4 	.word	0x0800e2a4
- 80090e4:	0800e2c4 	.word	0x0800e2c4
- 80090e8:	0800e2e4 	.word	0x0800e2e4
- 80090ec:	0800e304 	.word	0x0800e304
+ 80090d0:	0800e228 	.word	0x0800e228
+ 80090d4:	0800e248 	.word	0x0800e248
+ 80090d8:	0800e268 	.word	0x0800e268
+ 80090dc:	0800e288 	.word	0x0800e288
+ 80090e0:	0800e2a8 	.word	0x0800e2a8
+ 80090e4:	0800e2c8 	.word	0x0800e2c8
+ 80090e8:	0800e2e8 	.word	0x0800e2e8
+ 80090ec:	0800e308 	.word	0x0800e308
 
 080090f0 <collect_bits>:
 
@@ -27519,16 +27519,16 @@ USBH_StatusTypeDef USBH_HUB_KeybdDecode(HUB_Port_Interface_HandleTypeDef *Itf)
  800aba6:	bf00      	nop
  800aba8:	2000044c 	.word	0x2000044c
  800abac:	01010000 	.word	0x01010000
- 800abb0:	0800e324 	.word	0x0800e324
+ 800abb0:	0800e328 	.word	0x0800e328
  800abb4:	20000434 	.word	0x20000434
- 800abb8:	0800e344 	.word	0x0800e344
- 800abbc:	0800e364 	.word	0x0800e364
- 800abc0:	0800e384 	.word	0x0800e384
- 800abc4:	0800e3a4 	.word	0x0800e3a4
- 800abc8:	0800e3c4 	.word	0x0800e3c4
- 800abcc:	0800e3e4 	.word	0x0800e3e4
- 800abd0:	0800e404 	.word	0x0800e404
- 800abd4:	0800e424 	.word	0x0800e424
+ 800abb8:	0800e348 	.word	0x0800e348
+ 800abbc:	0800e368 	.word	0x0800e368
+ 800abc0:	0800e388 	.word	0x0800e388
+ 800abc4:	0800e3a8 	.word	0x0800e3a8
+ 800abc8:	0800e3c8 	.word	0x0800e3c8
+ 800abcc:	0800e3e8 	.word	0x0800e3e8
+ 800abd0:	0800e408 	.word	0x0800e408
+ 800abd4:	0800e428 	.word	0x0800e428
 
 0800abd8 <USBH_HUB_MouseInit>:
 uint8_t                 hub_mouse_report_data[8];
@@ -36207,10 +36207,10 @@ USBH_StatusTypeDef USBH_Get_USB_Status(HAL_StatusTypeDef hal_status)
  800de7a:	4798      	blx	r3
  800de7c:	3601      	adds	r6, #1
  800de7e:	e7f2      	b.n	800de66 <__libc_init_array+0x1e>
- 800de80:	0800e44c 	.word	0x0800e44c
- 800de84:	0800e44c 	.word	0x0800e44c
- 800de88:	0800e44c 	.word	0x0800e44c
- 800de8c:	0800e450 	.word	0x0800e450
+ 800de80:	0800e450 	.word	0x0800e450
+ 800de84:	0800e450 	.word	0x0800e450
+ 800de88:	0800e450 	.word	0x0800e450
+ 800de8c:	0800e454 	.word	0x0800e454
 
 0800de90 <malloc>:
  800de90:	4b02      	ldr	r3, [pc, #8]	; (800de9c <malloc+0xc>)

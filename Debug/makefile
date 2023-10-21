@@ -68,8 +68,8 @@ all: main-build
 main-build: TFMSXRev2F730.elf secondary-outputs
 
 # Tool invocations
-TFMSXRev2F730.elf TFMSXRev2F730.map: $(OBJS) $(USER_OBJS) /home/makaron/Documents/TFMSXRev2/STM32F730R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "TFMSXRev2F730.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/makaron/Documents/TFMSXRev2/STM32F730R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TFMSXRev2F730.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+TFMSXRev2F730.elf TFMSXRev2F730.map: $(OBJS) $(USER_OBJS) /home/makaron/Repo/TFMSX/TFMSX/STM32F730R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "TFMSXRev2F730.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/makaron/Repo/TFMSX/TFMSX/STM32F730R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TFMSXRev2F730.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

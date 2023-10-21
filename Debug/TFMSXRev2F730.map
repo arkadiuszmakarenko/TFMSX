@@ -502,7 +502,7 @@ Discarded input sections
  .rodata.STREAM_OFFSET_TAB
                 0x0000000000000000        0x8 ./Core/Src/main.o
  .rodata.msxkeymap
-                0x0000000000000000      0x10e ./Core/Src/main.o
+                0x0000000000000000      0x111 ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0xa7e ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0x29f ./Core/Src/main.o
  .debug_macro   0x0000000000000000       0x2e ./Core/Src/main.o
@@ -1279,7 +1279,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Core/Src/syscalls.o
  .debug_line    0x0000000000000000      0x7d1 ./Core/Src/syscalls.o
- .debug_str     0x0000000000000000     0x8a8f ./Core/Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8a8c ./Core/Src/syscalls.o
  .comment       0x0000000000000000       0x51 ./Core/Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac ./Core/Src/syscalls.o
  .ARM.attributes
@@ -2571,7 +2571,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
  .debug_line    0x0000000000000000     0x137b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
- .debug_str     0x0000000000000000    0xd8a61 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
+ .debug_str     0x0000000000000000    0xd8a5e ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
  .debug_frame   0x0000000000000000       0xac ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.o
  .ARM.attributes
@@ -2702,7 +2702,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
  .debug_line    0x0000000000000000      0x9fc ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
- .debug_str     0x0000000000000000    0xd88f9 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
+ .debug_str     0x0000000000000000    0xd88f6 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
  .debug_frame   0x0000000000000000      0x174 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.o
  .ARM.attributes
@@ -3485,7 +3485,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
  .debug_line    0x0000000000000000     0x3706 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
- .debug_str     0x0000000000000000    0xd9b89 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
+ .debug_str     0x0000000000000000    0xd9b86 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
  .debug_frame   0x0000000000000000      0xc38 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.o
  .ARM.attributes
@@ -3606,7 +3606,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
  .debug_line    0x0000000000000000      0x864 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
- .debug_str     0x0000000000000000    0xd8e2f ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
+ .debug_str     0x0000000000000000    0xd8e2c ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
  .debug_frame   0x0000000000000000       0xb0 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.o
  .ARM.attributes
@@ -4926,7 +4926,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
  .debug_line    0x0000000000000000      0x9e4 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
- .debug_str     0x0000000000000000    0xd8d86 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
+ .debug_str     0x0000000000000000    0xd8d83 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
  .debug_frame   0x0000000000000000       0xec ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.o
  .ARM.attributes
@@ -5371,7 +5371,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x14d ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
  .debug_macro   0x0000000000000000      0xae5 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
  .debug_line    0x0000000000000000     0x1206 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
- .debug_str     0x0000000000000000    0xe06a7 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
+ .debug_str     0x0000000000000000    0xe06a4 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
  .debug_frame   0x0000000000000000      0x7d4 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_rcc.o
  .ARM.attributes
@@ -5705,7 +5705,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x22a ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .debug_macro   0x0000000000000000      0x12f ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .debug_line    0x0000000000000000      0xc96 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
- .debug_str     0x0000000000000000    0xe2c61 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
+ .debug_str     0x0000000000000000    0xe2c5e ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .comment       0x0000000000000000       0x51 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .debug_frame   0x0000000000000000      0x438 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_utils.o
  .ARM.attributes
@@ -10515,102 +10515,102 @@ LOAD /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.
 .iplt           0x000000000800e0d4        0x0
  .iplt          0x000000000800e0d4        0x0 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x000000000800e0d4      0x370
+.rodata         0x000000000800e0d4      0x374
                 0x000000000800e0d4                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x000000000800e0d4        0x4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
  .rodata        0x000000000800e0d8        0x4 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.o
  *(.rodata*)
  .rodata.msxkeymap
-                0x000000000800e0dc      0x10e ./Core/Src/msx.o
- *fill*         0x000000000800e1ea        0x2 
+                0x000000000800e0dc      0x111 ./Core/Src/msx.o
+ *fill*         0x000000000800e1ed        0x3 
  .rodata.AHBPrescTable
-                0x000000000800e1ec       0x10 ./Core/Src/system_stm32f7xx.o
-                0x000000000800e1ec                AHBPrescTable
+                0x000000000800e1f0       0x10 ./Core/Src/system_stm32f7xx.o
+                0x000000000800e1f0                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800e1fc        0x8 ./Core/Src/system_stm32f7xx.o
-                0x000000000800e1fc                APBPrescTable
+                0x000000000800e200        0x8 ./Core/Src/system_stm32f7xx.o
+                0x000000000800e200                APBPrescTable
  .rodata.imp_0_lctrl
-                0x000000000800e204       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e208       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_lshift
-                0x000000000800e224       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e228       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_lalt
-                0x000000000800e244       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e248       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_lgui
-                0x000000000800e264       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e268       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_rctrl
-                0x000000000800e284       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e288       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_rshift
-                0x000000000800e2a4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e2a8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_ralt
-                0x000000000800e2c4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e2c8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_rgui
-                0x000000000800e2e4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e2e8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_key_array
-                0x000000000800e304       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                0x000000000800e308       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
  .rodata.imp_0_lctrl
-                0x000000000800e324       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e328       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_lshift
-                0x000000000800e344       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e348       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_lalt
-                0x000000000800e364       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e368       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_lgui
-                0x000000000800e384       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e388       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_rctrl
-                0x000000000800e3a4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e3a8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_rshift
-                0x000000000800e3c4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e3c8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_ralt
-                0x000000000800e3e4       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e3e8       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_rgui
-                0x000000000800e404       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e408       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
  .rodata.imp_0_key_array
-                0x000000000800e424       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
-                0x000000000800e444                . = ALIGN (0x4)
+                0x000000000800e428       0x20 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                0x000000000800e448                . = ALIGN (0x4)
 
-.ARM.extab      0x000000000800e444        0x0
-                0x000000000800e444                . = ALIGN (0x4)
+.ARM.extab      0x000000000800e448        0x0
+                0x000000000800e448                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000000000800e444                . = ALIGN (0x4)
+                0x000000000800e448                . = ALIGN (0x4)
 
-.ARM            0x000000000800e444        0x8
-                0x000000000800e444                . = ALIGN (0x4)
-                0x000000000800e444                __exidx_start = .
+.ARM            0x000000000800e448        0x8
+                0x000000000800e448                . = ALIGN (0x4)
+                0x000000000800e448                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x000000000800e444        0x8 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000000800e44c                __exidx_end = .
-                0x000000000800e44c                . = ALIGN (0x4)
+ .ARM.exidx     0x000000000800e448        0x8 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000800e450                __exidx_end = .
+                0x000000000800e450                . = ALIGN (0x4)
 
-.rel.dyn        0x000000000800e44c        0x0
- .rel.iplt      0x000000000800e44c        0x0 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x000000000800e450        0x0
+ .rel.iplt      0x000000000800e450        0x0 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x000000000800e44c        0x0
-                0x000000000800e44c                . = ALIGN (0x4)
-                0x000000000800e44c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000000800e450        0x0
+                0x000000000800e450                . = ALIGN (0x4)
+                0x000000000800e450                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x000000000800e44c                PROVIDE (__preinit_array_end = .)
-                0x000000000800e44c                . = ALIGN (0x4)
+                0x000000000800e450                PROVIDE (__preinit_array_end = .)
+                0x000000000800e450                . = ALIGN (0x4)
 
-.init_array     0x000000000800e44c        0x4
-                0x000000000800e44c                . = ALIGN (0x4)
-                0x000000000800e44c                PROVIDE (__init_array_start = .)
+.init_array     0x000000000800e450        0x4
+                0x000000000800e450                . = ALIGN (0x4)
+                0x000000000800e450                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x000000000800e44c        0x4 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x000000000800e450                PROVIDE (__init_array_end = .)
-                0x000000000800e450                . = ALIGN (0x4)
+ .init_array    0x000000000800e450        0x4 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x000000000800e454                PROVIDE (__init_array_end = .)
+                0x000000000800e454                . = ALIGN (0x4)
 
-.fini_array     0x000000000800e450        0x4
-                0x000000000800e450                . = ALIGN (0x4)
+.fini_array     0x000000000800e454        0x4
+                0x000000000800e454                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800e450        0x4 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x000000000800e454        0x4 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x000000000800e454                . = ALIGN (0x4)
-                0x000000000800e454                _sidata = LOADADDR (.data)
+                0x000000000800e458                . = ALIGN (0x4)
+                0x000000000800e458                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0xec load address 0x000000000800e454
+.data           0x0000000020000000       0xec load address 0x000000000800e458
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -10647,11 +10647,11 @@ LOAD /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x00000000200000ec                . = ALIGN (0x4)
                 0x00000000200000ec                _edata = .
 
-.igot.plt       0x00000000200000ec        0x0 load address 0x000000000800e540
+.igot.plt       0x00000000200000ec        0x0 load address 0x000000000800e544
  .igot.plt      0x00000000200000ec        0x0 /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x00000000200000ec                . = ALIGN (0x4)
 
-.bss            0x00000000200000ec     0x1154 load address 0x000000000800e540
+.bss            0x00000000200000ec     0x1154 load address 0x000000000800e544
                 0x00000000200000ec                _sbss = .
                 0x00000000200000ec                __bss_start__ = _sbss
  *(.bss)
@@ -10765,7 +10765,7 @@ LOAD /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x0000000020001240                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020001240     0x4000 load address 0x000000000800e540
+                0x0000000020001240     0x4000 load address 0x000000000800e544
                 0x0000000020001240                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x0000000020001240                PROVIDE (_end = .)
@@ -11402,107 +11402,107 @@ LOAD /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_line    0x000000000002b71a      0xcb6 ./USB_HOST/App/usb_host.o
  .debug_line    0x000000000002c3d0      0xeea ./USB_HOST/Target/usbh_conf.o
 
-.debug_str      0x0000000000000000    0xf6771
- .debug_str     0x0000000000000000    0xe4c63 ./Core/Src/dac.o
-                                      0xe5c29 (size before relaxing)
- .debug_str     0x00000000000e4c63      0x32d ./Core/Src/gpio.o
-                                      0xe5b3d (size before relaxing)
- .debug_str     0x00000000000e4f90     0x7bc7 ./Core/Src/joystick.o
-                                      0xece35 (size before relaxing)
- .debug_str     0x00000000000ecb57      0x627 ./Core/Src/main.o
-                                      0xecf6e (size before relaxing)
- .debug_str     0x00000000000ed17e      0x138 ./Core/Src/msx.o
-                                      0xed067 (size before relaxing)
- .debug_str     0x00000000000ed2b6       0x2c ./Core/Src/stm32f7xx_hal_msp.o
-                                      0xe5755 (size before relaxing)
- .debug_str     0x00000000000ed2e2      0x108 ./Core/Src/stm32f7xx_hal_timebase_tim.o
-                                      0xd9410 (size before relaxing)
- .debug_str     0x00000000000ed3ea      0x7c7 ./Core/Src/stm32f7xx_it.o
-                                      0xe5fab (size before relaxing)
- .debug_str     0x00000000000edbb1      0x4da ./Core/Src/sysmem.o
-                                       0x5dcb (size before relaxing)
- .debug_str     0x00000000000ee08b       0x87 ./Core/Src/system_stm32f7xx.o
-                                      0xd8973 (size before relaxing)
- .debug_str     0x00000000000ee112      0x2b5 ./Core/Src/usart.o
-                                      0xe5f9c (size before relaxing)
- .debug_str     0x00000000000ee3c7      0xa42 ./Core/Src/utils.o
-                                      0xed9ac (size before relaxing)
- .debug_str     0x00000000000eee09       0x36 ./Core/Startup/startup_stm32f730r8tx.o
-                                         0x5e (size before relaxing)
- .debug_str     0x00000000000eee3f      0x3af ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
-                                      0xd9253 (size before relaxing)
- .debug_str     0x00000000000ef1ee      0x286 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o
-                                      0xd923e (size before relaxing)
- .debug_str     0x00000000000ef474      0x201 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.o
-                                      0xd8cff (size before relaxing)
- .debug_str     0x00000000000ef675      0x13b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.o
-                                      0xd8bea (size before relaxing)
- .debug_str     0x00000000000ef7b0      0x309 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o
-                                      0xd8cb2 (size before relaxing)
- .debug_str     0x00000000000efab9      0x2f1 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o
-                                      0xd8a9d (size before relaxing)
- .debug_str     0x00000000000efdaa      0x342 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o
-                                      0xd8bb0 (size before relaxing)
- .debug_str     0x00000000000f00ec      0x11e ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o
-                                      0xd8a31 (size before relaxing)
- .debug_str     0x00000000000f020a      0x55a ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.o
-                                      0xd90be (size before relaxing)
- .debug_str     0x00000000000f0764      0x2ae ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o
-                                      0xd8c14 (size before relaxing)
- .debug_str     0x00000000000f0a12      0x1bd ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o
-                                      0xd8be2 (size before relaxing)
- .debug_str     0x00000000000f0bcf      0x1c5 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o
-                                      0xd8cdc (size before relaxing)
- .debug_str     0x00000000000f0d94      0x13f ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o
-                                      0xd8c0a (size before relaxing)
- .debug_str     0x00000000000f0ed3      0xe6b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o
-                                      0xd9c86 (size before relaxing)
- .debug_str     0x00000000000f1d3e      0x561 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o
-                                      0xd94dc (size before relaxing)
- .debug_str     0x00000000000f229f      0x84b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
-                                      0xd9622 (size before relaxing)
- .debug_str     0x00000000000f2aea      0x2ed ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.o
-                                      0xd8f1f (size before relaxing)
- .debug_str     0x00000000000f2dd7      0x62a ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.o
-                                      0xda3d1 (size before relaxing)
- .debug_str     0x00000000000f3401      0x5a2 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.o
-                                      0xd9292 (size before relaxing)
- .debug_str     0x00000000000f39a3      0x4a9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
-                                      0xed3a8 (size before relaxing)
- .debug_str     0x00000000000f3e4c      0x1e3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.o
-                                      0xed15c (size before relaxing)
- .debug_str     0x00000000000f402f      0x252 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
-                                      0xed1ce (size before relaxing)
- .debug_str     0x00000000000f4281       0x6b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
-                                      0xed01c (size before relaxing)
- .debug_str     0x00000000000f42ec       0x5c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
-                                      0xec4e9 (size before relaxing)
- .debug_str     0x00000000000f4348     0x1491 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_reportparser.o
-                                       0x9286 (size before relaxing)
- .debug_str     0x00000000000f57d9      0x4b5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.o
-                                      0xecd45 (size before relaxing)
- .debug_str     0x00000000000f5c8e       0xa2 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_gamepad.o
-                                      0xec485 (size before relaxing)
- .debug_str     0x00000000000f5d30       0xb0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
-                                      0xed0bf (size before relaxing)
- .debug_str     0x00000000000f5de0       0xb0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_mouse.o
-                                      0xec343 (size before relaxing)
- .debug_str     0x00000000000f5e90      0x1b3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.o
-                                      0xecd49 (size before relaxing)
- .debug_str     0x00000000000f6043       0xd3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubenum.o
-                                      0xedb89 (size before relaxing)
- .debug_str     0x00000000000f6116      0x2cc ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o
-                                      0xeac6c (size before relaxing)
- .debug_str     0x00000000000f63e2      0x196 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
-                                      0xeabdf (size before relaxing)
- .debug_str     0x00000000000f6578       0xbf ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o
-                                      0xeaa09 (size before relaxing)
- .debug_str     0x00000000000f6637       0x78 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.o
-                                      0xea99f (size before relaxing)
- .debug_str     0x00000000000f66af       0x3f ./USB_HOST/App/usb_host.o
-                                      0xec17e (size before relaxing)
- .debug_str     0x00000000000f66ee       0x83 ./USB_HOST/Target/usbh_conf.o
-                                      0xebb8a (size before relaxing)
+.debug_str      0x0000000000000000    0xf676e
+ .debug_str     0x0000000000000000    0xe4c60 ./Core/Src/dac.o
+                                      0xe5c26 (size before relaxing)
+ .debug_str     0x00000000000e4c60      0x32d ./Core/Src/gpio.o
+                                      0xe5b3a (size before relaxing)
+ .debug_str     0x00000000000e4f8d     0x7bc7 ./Core/Src/joystick.o
+                                      0xece32 (size before relaxing)
+ .debug_str     0x00000000000ecb54      0x627 ./Core/Src/main.o
+                                      0xecf6b (size before relaxing)
+ .debug_str     0x00000000000ed17b      0x138 ./Core/Src/msx.o
+                                      0xed064 (size before relaxing)
+ .debug_str     0x00000000000ed2b3       0x2c ./Core/Src/stm32f7xx_hal_msp.o
+                                      0xe5752 (size before relaxing)
+ .debug_str     0x00000000000ed2df      0x108 ./Core/Src/stm32f7xx_hal_timebase_tim.o
+                                      0xd940d (size before relaxing)
+ .debug_str     0x00000000000ed3e7      0x7c7 ./Core/Src/stm32f7xx_it.o
+                                      0xe5fa8 (size before relaxing)
+ .debug_str     0x00000000000edbae      0x4da ./Core/Src/sysmem.o
+                                       0x5dc8 (size before relaxing)
+ .debug_str     0x00000000000ee088       0x87 ./Core/Src/system_stm32f7xx.o
+                                      0xd8970 (size before relaxing)
+ .debug_str     0x00000000000ee10f      0x2b5 ./Core/Src/usart.o
+                                      0xe5f99 (size before relaxing)
+ .debug_str     0x00000000000ee3c4      0xa42 ./Core/Src/utils.o
+                                      0xed9a9 (size before relaxing)
+ .debug_str     0x00000000000eee06       0x36 ./Core/Startup/startup_stm32f730r8tx.o
+                                         0x5b (size before relaxing)
+ .debug_str     0x00000000000eee3c      0x3af ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o
+                                      0xd9250 (size before relaxing)
+ .debug_str     0x00000000000ef1eb      0x286 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o
+                                      0xd923b (size before relaxing)
+ .debug_str     0x00000000000ef471      0x201 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac.o
+                                      0xd8cfc (size before relaxing)
+ .debug_str     0x00000000000ef672      0x13b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dac_ex.o
+                                      0xd8be7 (size before relaxing)
+ .debug_str     0x00000000000ef7ad      0x309 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.o
+                                      0xd8caf (size before relaxing)
+ .debug_str     0x00000000000efab6      0x2f1 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.o
+                                      0xd8a9a (size before relaxing)
+ .debug_str     0x00000000000efda7      0x342 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.o
+                                      0xd8bad (size before relaxing)
+ .debug_str     0x00000000000f00e9      0x11e ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o
+                                      0xd8a2e (size before relaxing)
+ .debug_str     0x00000000000f0207      0x55a ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.o
+                                      0xd90bb (size before relaxing)
+ .debug_str     0x00000000000f0761      0x2ae ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o
+                                      0xd8c11 (size before relaxing)
+ .debug_str     0x00000000000f0a0f      0x1bd ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o
+                                      0xd8bdf (size before relaxing)
+ .debug_str     0x00000000000f0bcc      0x1c5 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o
+                                      0xd8cd9 (size before relaxing)
+ .debug_str     0x00000000000f0d91      0x13f ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o
+                                      0xd8c07 (size before relaxing)
+ .debug_str     0x00000000000f0ed0      0xe6b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.o
+                                      0xd9c83 (size before relaxing)
+ .debug_str     0x00000000000f1d3b      0x561 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.o
+                                      0xd94d9 (size before relaxing)
+ .debug_str     0x00000000000f229c      0x84b ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o
+                                      0xd961f (size before relaxing)
+ .debug_str     0x00000000000f2ae7      0x2ed ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_exti.o
+                                      0xd8f1c (size before relaxing)
+ .debug_str     0x00000000000f2dd4      0x62a ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_gpio.o
+                                      0xda3ce (size before relaxing)
+ .debug_str     0x00000000000f33fe      0x5a2 ./Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.o
+                                      0xd928f (size before relaxing)
+ .debug_str     0x00000000000f39a0      0x4a9 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.o
+                                      0xed3a5 (size before relaxing)
+ .debug_str     0x00000000000f3e49      0x1e3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.o
+                                      0xed159 (size before relaxing)
+ .debug_str     0x00000000000f402c      0x252 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.o
+                                      0xed1cb (size before relaxing)
+ .debug_str     0x00000000000f427e       0x6b ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.o
+                                      0xed019 (size before relaxing)
+ .debug_str     0x00000000000f42e9       0x5c ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.o
+                                      0xec4e6 (size before relaxing)
+ .debug_str     0x00000000000f4345     0x1491 ./Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_reportparser.o
+                                       0x9283 (size before relaxing)
+ .debug_str     0x00000000000f57d6      0x4b5 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.o
+                                      0xecd42 (size before relaxing)
+ .debug_str     0x00000000000f5c8b       0xa2 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_gamepad.o
+                                      0xec482 (size before relaxing)
+ .debug_str     0x00000000000f5d2d       0xb0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_keybd.o
+                                      0xed0bc (size before relaxing)
+ .debug_str     0x00000000000f5ddd       0xb0 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_mouse.o
+                                      0xec340 (size before relaxing)
+ .debug_str     0x00000000000f5e8d      0x1b3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubctrl.o
+                                      0xecd46 (size before relaxing)
+ .debug_str     0x00000000000f6040       0xd3 ./Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hubenum.o
+                                      0xedb86 (size before relaxing)
+ .debug_str     0x00000000000f6113      0x2cc ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.o
+                                      0xeac69 (size before relaxing)
+ .debug_str     0x00000000000f63df      0x196 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.o
+                                      0xeabdc (size before relaxing)
+ .debug_str     0x00000000000f6575       0xbf ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.o
+                                      0xeaa06 (size before relaxing)
+ .debug_str     0x00000000000f6634       0x78 ./Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.o
+                                      0xea99c (size before relaxing)
+ .debug_str     0x00000000000f66ac       0x3f ./USB_HOST/App/usb_host.o
+                                      0xec17b (size before relaxing)
+ .debug_str     0x00000000000f66eb       0x83 ./USB_HOST/Target/usbh_conf.o
+                                      0xebb87 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
  .comment       0x0000000000000000       0x50 ./Core/Src/dac.o
