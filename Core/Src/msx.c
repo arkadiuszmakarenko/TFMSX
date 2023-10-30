@@ -40,7 +40,7 @@ void ProcessMSXKeyboard(){
 	memset(&MSX_Matrix_temp, 0, sizeof(MSX_Matrix_temp));
 
 	//process special keys
-	if (kb_data->lctrl || kb_data->rctrl)
+	if (kb_data->lctrl)
 	{
 		//{KEY_LEFTCONTROL,								KB_ROW_6,		B_BIT_1},
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_1;
@@ -49,20 +49,21 @@ void ProcessMSXKeyboard(){
 
 	if (kb_data->lshift|| kb_data->rshift)
 	{
-		//		{KEY_LEFTSHIFT,							KB_ROW_6,		KB_BIT_0},
+		//{KEY_LEFTSHIFT,							KB_ROW_6,		KB_BIT_0},
+		//{KEY_RIGHTSHIFT,					KB_ROW_6,		KB_BIT_0},
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_0;
 	}
 
-	if (kb_data->lgui)
+	//{KEY_LEFTALT,						KB_ROW_6,		KB_BIT_4},
+	//
+	if (kb_data->lalt)
 	{
-			//	{KEY_LEFT_GUI,							KB_ROW_6,		KB_BIT_4},
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_4;
 	}
 
 	if (kb_data->ralt)
 	{
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_2;
-			//{GRAPH,							KB_ROW_6,		KB_BIT_2},
 	}
 
 	//Interate over all keys - max 6 pressed keys at once
