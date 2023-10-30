@@ -88,7 +88,6 @@ void EXTI0_IRQHandler(void)
 {
   if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_0) != RESET)
   {
-
     ProcessIRQ();
     LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_0);
   }

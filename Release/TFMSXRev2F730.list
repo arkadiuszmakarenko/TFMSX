@@ -7,23 +7,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
   1 .text         00007070  080001e0  080001e0  000101e0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .rodata       00000388  08007250  08007250  00017250  2**2
+  2 .rodata       00000390  08007250  08007250  00017250  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .ARM.extab    00000000  080075d8  080075d8  000200ec  2**0
+  3 .ARM.extab    00000000  080075e0  080075e0  000200ec  2**0
                   CONTENTS
-  4 .ARM          00000008  080075d8  080075d8  000175d8  2**2
+  4 .ARM          00000008  080075e0  080075e0  000175e0  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  5 .preinit_array 00000000  080075e0  080075e0  000200ec  2**0
+  5 .preinit_array 00000000  080075e8  080075e8  000200ec  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .init_array   00000004  080075e0  080075e0  000175e0  2**2
+  6 .init_array   00000004  080075e8  080075e8  000175e8  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  7 .fini_array   00000004  080075e4  080075e4  000175e4  2**2
+  7 .fini_array   00000004  080075ec  080075ec  000175ec  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  8 .data         000000ec  20000000  080075e8  00020000  2**2
+  8 .data         000000ec  20000000  080075f0  00020000  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  9 .bss          00001154  200000ec  080076d4  000200ec  2**2
+  9 .bss          00001154  200000ec  080076dc  000200ec  2**2
                   ALLOC
- 10 ._user_heap_stack 00004000  20001240  080076d4  00021240  2**0
+ 10 ._user_heap_stack 00004000  20001240  080076dc  00021240  2**0
                   ALLOC
  11 .ARM.attributes 00000030  00000000  00000000  000200ec  2**0
                   CONTENTS, READONLY
@@ -905,7 +905,7 @@ Disassembly of section .text:
  8000b58:	f844 1025 	str.w	r1, [r4, r5, lsl #2]
  8000b5c:	3201      	adds	r2, #1
  8000b5e:	3303      	adds	r3, #3
- 8000b60:	2a5b      	cmp	r2, #91	; 0x5b
+ 8000b60:	2a5e      	cmp	r2, #94	; 0x5e
  8000b62:	d1f1      	bne.n	8000b48 <ProcessMSXKey+0x8>
  8000b64:	bd70      	pop	{r4, r5, r6, pc}
  8000b66:	bf00      	nop
@@ -1653,7 +1653,7 @@ Disassembly of section .text:
  8001254:	20040000 	.word	0x20040000
  8001258:	20000000 	.word	0x20000000
  800125c:	200000ec 	.word	0x200000ec
- 8001260:	080075e8 	.word	0x080075e8
+ 8001260:	080075f0 	.word	0x080075f0
  8001264:	200000ec 	.word	0x200000ec
  8001268:	20001240 	.word	0x20001240
 
@@ -3808,7 +3808,7 @@ Disassembly of section .text:
  80027da:	bf00      	nop
  80027dc:	40023c00 	.word	0x40023c00
  80027e0:	40023800 	.word	0x40023800
- 80027e4:	08007361 	.word	0x08007361
+ 80027e4:	0800736a 	.word	0x0800736a
  80027e8:	20000000 	.word	0x20000000
  80027ec:	20000008 	.word	0x20000008
 
@@ -3823,7 +3823,7 @@ Disassembly of section .text:
  8002800:	40d8      	lsrs	r0, r3
  8002802:	4770      	bx	lr
  8002804:	40023800 	.word	0x40023800
- 8002808:	08007371 	.word	0x08007371
+ 8002808:	0800737a 	.word	0x0800737a
  800280c:	20000000 	.word	0x20000000
 
 08002810 <HAL_RCC_GetPCLK2Freq>:
@@ -3837,7 +3837,7 @@ Disassembly of section .text:
  8002820:	40d8      	lsrs	r0, r3
  8002822:	4770      	bx	lr
  8002824:	40023800 	.word	0x40023800
- 8002828:	08007371 	.word	0x08007371
+ 8002828:	0800737a 	.word	0x0800737a
  800282c:	20000000 	.word	0x20000000
 
 08002830 <HAL_RCC_GetClockConfig>:
@@ -5138,9 +5138,9 @@ Disassembly of section .text:
  8003540:	efff69f3 	.word	0xefff69f3
  8003544:	40011000 	.word	0x40011000
  8003548:	40023800 	.word	0x40023800
- 800354c:	08007379 	.word	0x08007379
+ 800354c:	08007382 	.word	0x08007382
  8003550:	40004400 	.word	0x40004400
- 8003554:	0800737c 	.word	0x0800737c
+ 8003554:	08007385 	.word	0x08007385
  8003558:	40004800 	.word	0x40004800
  800355c:	40004c00 	.word	0x40004c00
  8003560:	40005000 	.word	0x40005000
@@ -7284,15 +7284,15 @@ Disassembly of section .text:
  8004a6c:	20000404 	.word	0x20000404
  8004a70:	01010000 	.word	0x01010000
  8004a74:	200003f4 	.word	0x200003f4
- 8004a78:	080073d0 	.word	0x080073d0
- 8004a7c:	08007410 	.word	0x08007410
- 8004a80:	080073b0 	.word	0x080073b0
- 8004a84:	080073f0 	.word	0x080073f0
- 8004a88:	08007450 	.word	0x08007450
- 8004a8c:	08007490 	.word	0x08007490
- 8004a90:	08007430 	.word	0x08007430
- 8004a94:	08007470 	.word	0x08007470
- 8004a98:	08007390 	.word	0x08007390
+ 8004a78:	080073d8 	.word	0x080073d8
+ 8004a7c:	08007418 	.word	0x08007418
+ 8004a80:	080073b8 	.word	0x080073b8
+ 8004a84:	080073f8 	.word	0x080073f8
+ 8004a88:	08007458 	.word	0x08007458
+ 8004a8c:	08007498 	.word	0x08007498
+ 8004a90:	08007438 	.word	0x08007438
+ 8004a94:	08007478 	.word	0x08007478
+ 8004a98:	08007398 	.word	0x08007398
 
 08004a9c <collect_bits>:
  8004a9c:	b5f0      	push	{r4, r5, r6, r7, lr}
@@ -8569,15 +8569,15 @@ Disassembly of section .text:
  8005770:	20000444 	.word	0x20000444
  8005774:	01010000 	.word	0x01010000
  8005778:	20000434 	.word	0x20000434
- 800577c:	080074f4 	.word	0x080074f4
- 8005780:	08007534 	.word	0x08007534
- 8005784:	080074d4 	.word	0x080074d4
- 8005788:	08007514 	.word	0x08007514
- 800578c:	08007574 	.word	0x08007574
- 8005790:	080075b4 	.word	0x080075b4
- 8005794:	08007554 	.word	0x08007554
- 8005798:	08007594 	.word	0x08007594
- 800579c:	080074b4 	.word	0x080074b4
+ 800577c:	080074fc 	.word	0x080074fc
+ 8005780:	0800753c 	.word	0x0800753c
+ 8005784:	080074dc 	.word	0x080074dc
+ 8005788:	0800751c 	.word	0x0800751c
+ 800578c:	0800757c 	.word	0x0800757c
+ 8005790:	080075bc 	.word	0x080075bc
+ 8005794:	0800755c 	.word	0x0800755c
+ 8005798:	0800759c 	.word	0x0800759c
+ 800579c:	080074bc 	.word	0x080074bc
 
 080057a0 <USBH_HUB_GetKeybdInfo>:
  80057a0:	b508      	push	{r3, lr}
@@ -11042,7 +11042,7 @@ Disassembly of section .text:
  8006f16:	5c18      	ldrbls	r0, [r3, r0]
  8006f18:	2002      	movhi	r0, #2
  8006f1a:	4770      	bx	lr
- 8006f1c:	080075d4 	.word	0x080075d4
+ 8006f1c:	080075dc 	.word	0x080075dc
 
 08006f20 <USBH_LL_Start>:
  8006f20:	b508      	push	{r3, lr}
@@ -11132,10 +11132,10 @@ Disassembly of section .text:
  8006ff6:	4798      	blx	r3
  8006ff8:	3601      	adds	r6, #1
  8006ffa:	e7f2      	b.n	8006fe2 <__libc_init_array+0x1e>
- 8006ffc:	080075e0 	.word	0x080075e0
- 8007000:	080075e0 	.word	0x080075e0
- 8007004:	080075e0 	.word	0x080075e0
- 8007008:	080075e4 	.word	0x080075e4
+ 8006ffc:	080075e8 	.word	0x080075e8
+ 8007000:	080075e8 	.word	0x080075e8
+ 8007004:	080075e8 	.word	0x080075e8
+ 8007008:	080075ec 	.word	0x080075ec
 
 0800700c <malloc>:
  800700c:	4b02      	ldr	r3, [pc, #8]	; (8007018 <malloc+0xc>)

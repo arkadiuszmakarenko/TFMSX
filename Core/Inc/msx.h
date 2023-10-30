@@ -64,6 +64,7 @@ U.K. matrix (QWERTY with a "£" key)
 #define KB_ROW_8 8
 #define KB_ROW_9 9
 #define KB_ROW_10 10
+#define KB_ROW_11 11
 
 #define KB_BIT_0 0b00000001
 #define KB_BIT_1 0b00000010
@@ -77,38 +78,41 @@ U.K. matrix (QWERTY with a "£" key)
 
 
 
-#define MSX_KEYS_SIZE 91
+#define MSX_KEYS_SIZE 94
 
 // Array of 3 elements USB_KEYCODE, MSX_ROW, MSX_BIT
 static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 {
 		//7 &		6 ^		5 %		4 $		3 #		2 @		1 !		0 )
-		{KEY_7_AMPERSAND,						KB_ROW_0,		KB_BIT_7},
-		{KEY_6_CARET,							KB_ROW_0,		KB_BIT_6},
-		{KEY_5_PERCENT,							KB_ROW_0,		KB_BIT_5},
-		{KEY_4_DOLLAR,							KB_ROW_0,		KB_BIT_4},
-		{KEY_3_NUMBER_SIGN,						KB_ROW_0,		KB_BIT_3},
-		{KEY_2_AT,								KB_ROW_0,		KB_BIT_2},
-		{KEY_1_EXCLAMATION_MARK,				KB_ROW_0,		KB_BIT_1},
-		{KEY_0_CPARENTHESIS,					KB_ROW_0,		KB_BIT_0},
+		{KEY_7_AMPERSAND,			KB_ROW_0,		KB_BIT_7},
+		{KEY_6_CARET,				KB_ROW_0,		KB_BIT_6},
+		{KEY_5_PERCENT,				KB_ROW_0,		KB_BIT_5},
+		{KEY_4_DOLLAR,				KB_ROW_0,		KB_BIT_4},
+		{KEY_3_NUMBER_SIGN,			KB_ROW_0,		KB_BIT_3},
+		{KEY_2_AT,					KB_ROW_0,		KB_BIT_2},
+		{KEY_1_EXCLAMATION_MARK,	KB_ROW_0,		KB_BIT_1},
+		{KEY_0_CPARENTHESIS,		KB_ROW_0,		KB_BIT_0},
+
 		//; :		] }		[ {		\ ¦		= +		- _		9 (		8 *
-		{KEY_SEMICOLON_COLON,					KB_ROW_1,		KB_BIT_7},
-		{KEY_CBRACKET_AND_CBRACE,				KB_ROW_1,		KB_BIT_6},
-		{KEY_OBRACKET_AND_OBRACE ,				KB_ROW_1,		KB_BIT_5},
-		{KEY_NONUS_BACK_SLASH_VERTICAL_BAR,		KB_ROW_1,		KB_BIT_4},
-		{KEY_EQUAL_PLUS,						KB_ROW_1,		KB_BIT_3},
-		{KEY_MINUS_UNDERSCORE,					KB_ROW_1,		KB_BIT_2},
-		{KEY_9_OPARENTHESIS,					KB_ROW_1,		KB_BIT_1},
-		{KEY_8_ASTERISK,						KB_ROW_1,		KB_BIT_0},
-		//B		A		DEAD	/ ?		. >		, <		` ~		' "
-		{KEY_B,									KB_ROW_2,		KB_BIT_7},
-		{KEY_A,									KB_ROW_2,		KB_BIT_6},
-		{0x35,									KB_ROW_2,		KB_BIT_5}, //KEY_GRAVE_ACCENT_AND_TILDE
-		{KEY_SLASH_QUESTION,					KB_ROW_2,		KB_BIT_4},
-		{KEY_DOT_GREATER,						KB_ROW_2,		KB_BIT_3},
-		{KEY_COMMA_AND_LESS,					KB_ROW_2,		KB_BIT_2},
-		{KEY_NONUS_NUMBER_SIGN_TILDE,			KB_ROW_2,		KB_BIT_1},
-		{KEY_SINGLE_AND_DOUBLE_QUOTE,			KB_ROW_2,		KB_BIT_0},
+		{KEY_SEMICOLON_COLON,				KB_ROW_1,		KB_BIT_7},
+		{KEY_CBRACKET_AND_CBRACE,			KB_ROW_1,		KB_BIT_6},
+		{KEY_OBRACKET_AND_OBRACE ,			KB_ROW_1,		KB_BIT_5},
+		{KEY_BACKSLASH_VERTICAL_BAR,		KB_ROW_1,		KB_BIT_4},
+		{KEY_EQUAL_PLUS,					KB_ROW_1,		KB_BIT_3},
+		{KEY_MINUS_UNDERSCORE,				KB_ROW_1,		KB_BIT_2},
+		{KEY_9_OPARENTHESIS,				KB_ROW_1,		KB_BIT_1},
+		{KEY_8_ASTERISK,					KB_ROW_1,		KB_BIT_0},
+
+		//B		A		_	     / ?		. >		, <		` ~		' "
+		{KEY_B,							KB_ROW_2,		KB_BIT_7},
+		{KEY_A,							KB_ROW_2,		KB_BIT_6},
+		{KEY_RIGHTCONTROL,				KB_ROW_2,		KB_BIT_5},
+		{KEY_SLASH_QUESTION,			KB_ROW_2,		KB_BIT_4},
+		{KEY_DOT_GREATER,				KB_ROW_2,		KB_BIT_3},
+		{KEY_COMMA_AND_LESS,			KB_ROW_2,		KB_BIT_2},
+        {KEY_NONUS_NUMBER_SIGN_TILDE,   KB_ROW_2,		KB_BIT_1},
+		{KEY_SINGLE_AND_DOUBLE_QUOTE,	KB_ROW_2,		KB_BIT_0},
+
 		//J		I		H		G		F		E		D		C
 		{KEY_J,									KB_ROW_3,		KB_BIT_7},
 		{KEY_I,									KB_ROW_3,		KB_BIT_6},
@@ -136,56 +140,63 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_U,									KB_ROW_5,		KB_BIT_2},
 		{KEY_T,									KB_ROW_5,		KB_BIT_1},
 		{KEY_S,									KB_ROW_5,		KB_BIT_0},
-		//F3		F2		F1		CODE	CAPS	GRAPH	CTRL	SHIFT
-		{KEY_F3,								KB_ROW_6,		KB_BIT_7},
-		{KEY_F2,								KB_ROW_6,		KB_BIT_6},
-		{KEY_F1,								KB_ROW_6,		KB_BIT_5},
-		{KEY_LEFT_GUI,							KB_ROW_6,		KB_BIT_4},
-		{0x39, 									KB_ROW_6,		KB_BIT_3},//KEY_CAPS LOCK,
-		{KEY_RIGHT_GUI,							KB_ROW_6,		KB_BIT_2},
-		{KEY_LEFTCONTROL,						KB_ROW_6,		KB_BIT_1},
-		{KEY_RIGHTCONTROL,						KB_ROW_6,		KB_BIT_1},
-		{KEY_LEFTSHIFT,							KB_ROW_6,		KB_BIT_0},
-		{KEY_RIGHTSHIFT,						KB_ROW_6,		KB_BIT_0},
 
-		{KEY_F8,								KB_ROW_6,		0b00010111}, //ctlr+shift+graph+code
+		//F3		F2		F1		CODE	CAPS	GRAPH	CTRL	SHIFT
+		{KEY_F3,							KB_ROW_6,		KB_BIT_7},
+		{KEY_F2,							KB_ROW_6,		KB_BIT_6},
+		{KEY_F1,							KB_ROW_6,		KB_BIT_5},
+		{KEY_LEFTALT,						KB_ROW_6,		KB_BIT_4},
+		{0x39, 								KB_ROW_6,		KB_BIT_3},// KEY_CAPS LOCK,
+		{KEY_RIGHTALT,						KB_ROW_6,		KB_BIT_2},
+		{KEY_LEFTCONTROL,					KB_ROW_6,		KB_BIT_1},
+		{KEY_LEFTSHIFT,						KB_ROW_6,		KB_BIT_0},
+		{KEY_RIGHTSHIFT,					KB_ROW_6,		KB_BIT_0},
+		{KEY_F8,							KB_ROW_6,		0b00010111 }, //ctlr+shift+graph+code
+
 		//RET		SELECT	BS		STOP	TAB		ESC		F5		F4
-		{KEY_ENTER,								KB_ROW_7,		KB_BIT_7},
-		{KEY_F6,								KB_ROW_7,		KB_BIT_6},
-		{KEY_BACKSPACE,							KB_ROW_7,		KB_BIT_5},
-		{KEY_PAUSE,								KB_ROW_7,		KB_BIT_4},
-		{KEY_TAB,								KB_ROW_7,		KB_BIT_3},
-		{KEY_ESCAPE,							KB_ROW_7,		KB_BIT_2},
-		{KEY_F5,								KB_ROW_7,		KB_BIT_1},
-		{KEY_F4,								KB_ROW_7,		KB_BIT_0},
-		//→		↓		↑		←		DEL		INS		HOME	SPACE
+		{KEY_KEYPAD_ENTER,					KB_ROW_7,		KB_BIT_7},
+		{KEY_ENTER,							KB_ROW_7,		KB_BIT_7},
+		{0x47,								KB_ROW_7,		KB_BIT_6}, // KEY_SCROLL LOCK
+		{KEY_BACKSPACE,				        KB_ROW_7,		KB_BIT_5},
+		{KEY_PAUSE,							KB_ROW_7,		KB_BIT_4},
+		{KEY_TAB,							KB_ROW_7,		KB_BIT_3},
+		{KEY_ESCAPE,						KB_ROW_7,		KB_BIT_2},
+		{KEY_F5,							KB_ROW_7,		KB_BIT_1},
+		{KEY_F4,							KB_ROW_7,		KB_BIT_0},
+
+		//?		?		?		?		DEL		INS		HOME	SPACE
 		{KEY_RIGHTARROW,						KB_ROW_8,		KB_BIT_7},
-		{KEY_DOWNARROW,							KB_ROW_8,		KB_BIT_6},
+		{KEY_DOWNARROW,					        KB_ROW_8,		KB_BIT_6},
 		{KEY_UPARROW,							KB_ROW_8,		KB_BIT_5},
-		{KEY_LEFTARROW,							KB_ROW_8,		KB_BIT_4},
+		{KEY_LEFTARROW,					        KB_ROW_8,		KB_BIT_4},
 		{KEY_DELETE,							KB_ROW_8,		KB_BIT_3},
 		{KEY_INSERT,							KB_ROW_8,		KB_BIT_2},
 		{KEY_HOME,								KB_ROW_8,		KB_BIT_1},
 		{KEY_SPACEBAR,							KB_ROW_8,		KB_BIT_0},
+
 		//NUM4	NUM3	NUM2	NUM1	NUM0	NUM/	NUM+	NUM*
-		{KEY_KEYPAD_4_LEFT_ARROW,				KB_ROW_9,		KB_BIT_7},
+		{KEY_KEYPAD_4_LEFT_ARROW,			    KB_ROW_9,		KB_BIT_7},
 		{KEY_KEYPAD_3_PAGEDN,					KB_ROW_9,		KB_BIT_6},
-		{KEY_KEYPAD_2_DOWN_ARROW,				KB_ROW_9,		KB_BIT_5},
+		{KEY_KEYPAD_2_DOWN_ARROW,		        KB_ROW_9,		KB_BIT_5},
 		{KEY_KEYPAD_1_END,						KB_ROW_9,		KB_BIT_4},
 		{KEY_KEYPAD_0_INSERT,					KB_ROW_9,		KB_BIT_3},
 		{KEY_KEYPAD_SLASH,						KB_ROW_9,		KB_BIT_2},
 		{KEY_KEYPAD_PLUS,						KB_ROW_9,		KB_BIT_1},
 		{KEY_KEYPAD_ASTERIKS,					KB_ROW_9,		KB_BIT_0},
-		//NUM.	NUM,	NUM-	NUM9	NUM8	NUM7	NUM6	NUM5
-		{KEY_KEYPAD_DECIMAL_SEPARATOR_DELETE,	KB_ROW_10,		KB_BIT_7},
-		{KEY_NONUS_BACK_SLASH_VERTICAL_BAR,		KB_ROW_10,		KB_BIT_6},
-		{KEY_KEYPAD_MINUS,						KB_ROW_10,		KB_BIT_5},
-		{KEY_KEYPAD_9_PAGEUP,					KB_ROW_10,		KB_BIT_4},
-		{KEY_KEYPAD_8_UP_ARROW,					KB_ROW_10,		KB_BIT_3},
-		{KEY_KEYPAD_7_HOME,						KB_ROW_10,		KB_BIT_2},
-		{KEY_KEYPAD_6_RIGHT_ARROW,				KB_ROW_10,		KB_BIT_1},
-		{KEY_KEYPAD_5,							KB_ROW_10,		KB_BIT_0},
 
+		//NUM.	NUM,	NUM-	NUM9	NUM8	NUM7	NUM6	NUM5
+		{KEY_KEYPAD_DECIMAL_SEPARATOR_DELETE,                   KB_ROW_10,		KB_BIT_7},
+		{KEY_KEYPAD_NUM_LOCK_AND_CLEAR,	                        KB_ROW_10,	    KB_BIT_6},
+		{KEY_KEYPAD_MINUS,										KB_ROW_10,		KB_BIT_5},
+		{KEY_KEYPAD_9_PAGEUP,									KB_ROW_10,		KB_BIT_4},
+		{KEY_KEYPAD_8_UP_ARROW,				       				KB_ROW_10,		KB_BIT_3},
+		{KEY_KEYPAD_7_HOME,										KB_ROW_10,		KB_BIT_2},
+		{KEY_KEYPAD_6_RIGHT_ARROW,			        			KB_ROW_10,		KB_BIT_1},
+		{KEY_KEYPAD_5,											KB_ROW_10,		KB_BIT_0},
+
+        // X   X   X   X   Cancel   X   Execute   X
+		{KEY_F12,									KB_ROW_11,		KB_BIT_3},
+       	{KEY_F11,			                        KB_ROW_11,		KB_BIT_1}
 };
 
 #endif
