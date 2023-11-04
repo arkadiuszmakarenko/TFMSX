@@ -12,12 +12,18 @@ extern HID_KEYBD_Info_TypeDef *USBH_HID_GetKeybdInfo(USBH_HandleTypeDef *phost);
 extern ApplicationTypeDef Appli_state;
 
 
-
+typedef enum {
+	NUM_LOCK_LED = (1 << 0),
+	CAPS_LOCK_LED = (1 << 1),
+	SCROLL_LOCK_LED = (1 << 2),
+} keyboard_led_t;
 
 
 void ProcessMSXKeyboard();
 void InitMSXKeyboard();
 void ProcessIRQ();
+void USB_Keyboard_LED(keyboard_led_t ld) ;
+
 
 #define READ_MSX_ROW_VALUE(val) (val&0xF) //
 
@@ -30,7 +36,7 @@ row 1		; :		] }		[ {		\ ¦		= +		- _		9 (		8 *
 row 2		B		A		DEAD	/ ?		. >		, <		` ~		' "
 row 3		J		I		H		G		F		E		D		C
 row 4		R		Q		P		O		N		M		L		K
-row 5		Z		Y		X		W		V		U		T		S
+row 5		Z		Y		X		W		V		U		T	cap	S
 row 6		F3		F2		F1		CODE	CAPS	GRAPH	CTRL	SHIFT
 row 7		RET		SELECT	BS		STOP	TAB		ESC		F5		F4
 row 8		→		↓		↑		←		DEL		INS		HOME	SPACE
@@ -198,5 +204,9 @@ static const uint8_t msxkeymap[MSX_KEYS_SIZE][3] =
 		{KEY_F12,									KB_ROW_11,		KB_BIT_3},
        	{KEY_F11,			                        KB_ROW_11,		KB_BIT_1}
 };
+
+
+
+
 
 #endif

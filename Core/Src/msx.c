@@ -7,6 +7,25 @@ uint32_t MSX_Matrix_temp[12];
 
 HID_KEYBD_Info_TypeDef *kb_data;
 
+static uint8_t PreviousCapsLockStatus = 1;
+static keyboard_led_t LEDStatus = 0;
+
+
+void USB_Keyboard_LED(keyboard_led_t ld) {
+	keyboard_led_t led = ld;
+	USBH_StatusTypeDef status;
+	int retrygood = 1;
+		for (;;) {
+			status = USBH_HID_SetReport(&hUsbHostFS, 0x02, 0x00, &led, 1);
+			if (status == USBH_OK)
+				retrygood--;
+			if (retrygood <= 0)
+				break;
+		}
+}
+
+
+
 void InitMSXKeyboard()
 {
 
@@ -34,7 +53,6 @@ void ProcessMSXKeyboard(){
 
 	//keyboard hasn't return any data, so there was no change in state.
 	if (kb_data==NULL) return;
-
 
 	//reset temp array to zero
 	memset(&MSX_Matrix_temp, 0, sizeof(MSX_Matrix_temp));
@@ -78,6 +96,35 @@ void ProcessMSXKeyboard(){
 	}
 
 	memcpy(MSX_Matrix_data,MSX_Matrix_temp,sizeof(MSX_Matrix_data));
+
+
+	//handle capslock
+
+	for (int i = 0; i < 6; i++)
+	{
+		//CAPSLOCK	pressed
+		if(kb_data->keys[i]==0x39)
+		{
+			//check previous capslock status
+			if (PreviousCapsLockStatus == 0)
+			{
+				LEDStatus |= CAPS_LOCK_LED;
+
+				USB_Keyboard_LED(LEDStatus);
+				PreviousCapsLockStatus = 1;
+			}
+
+		//capslock not pressed
+			else
+			{
+					LEDStatus &= ~CAPS_LOCK_LED;
+					USB_Keyboard_LED(LEDStatus);
+					PreviousCapsLockStatus = 0;
+			}
+		}
+	}
+
+
 }
 
 void ProcessIRQ()

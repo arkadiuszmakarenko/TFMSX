@@ -100,7 +100,6 @@ int main(void)
   /* USER CODE BEGIN 2 */
   InitMSXKeyboard();
 
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
