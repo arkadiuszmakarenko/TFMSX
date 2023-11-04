@@ -2,8 +2,8 @@
 #include "usbh_hub_keybd.h"
 #include "utils.h"
 
-uint32_t MSX_Matrix_data[11];
-uint32_t MSX_Matrix_temp[11];
+uint32_t MSX_Matrix_data[12];
+uint32_t MSX_Matrix_temp[12];
 
 HID_KEYBD_Info_TypeDef *kb_data;
 
@@ -46,6 +46,11 @@ void ProcessMSXKeyboard(){
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_1;
 	}
 
+	if (kb_data->rctrl)
+	{
+		//{KEY_LEFTCONTROL,								KB_ROW_6,		B_BIT_1},
+		MSX_Matrix_temp[KB_ROW_2] |=KB_BIT_5;
+	}
 
 	if (kb_data->lshift|| kb_data->rshift)
 	{
@@ -56,12 +61,12 @@ void ProcessMSXKeyboard(){
 
 	//{KEY_LEFTALT,						KB_ROW_6,		KB_BIT_4},
 	//
-	if (kb_data->lalt)
+	if (kb_data->ralt)
 	{
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_4;
 	}
 
-	if (kb_data->ralt)
+	if (kb_data->lalt)
 	{
 		MSX_Matrix_temp[KB_ROW_6] |=KB_BIT_2;
 	}

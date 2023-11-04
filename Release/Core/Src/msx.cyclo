@@ -1,5 +1,5 @@
 msx.c:10:6:InitMSXKeyboard	1
 msx.c:18:6:ProcessMSXKey	3
-msx.c:30:6:ProcessMSXKeyboard	9
-msx.c:78:6:ProcessIRQ	1
-msx.c:88:6:EXTI0_IRQHandler	2
+msx.c:30:6:ProcessMSXKeyboard	10
+msx.c:83:6:ProcessIRQ	1
+msx.c:93:6:EXTI0_IRQHandler	2
