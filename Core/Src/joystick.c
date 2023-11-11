@@ -16,13 +16,6 @@ void ProcessJoystick() {
 			if ((joymap->gamepad_data >> 3 & 0x1)) LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_11); else LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_11); //FORWARD - PC13
 			if ((joymap->gamepad_data >> 4 & 0x1)) LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_15); else LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_15); //TR1 - PC15
 			if ((joymap->gamepad_data >> 5 & 0x1)) LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_14); else LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_14); //TR2 - PC14
-
-
-
-
-
-		//		HAL_GPIO_WritePin(MB_GPIO_Port, RB_Pin, !(joymap->gamepad_data >> 5 & 0x1));
-		//		HAL_GPIO_WritePin(RB_GPIO_Port, MB_Pin, !(joymap->gamepad_data >> 6 & 0x1));
 	
 }
 

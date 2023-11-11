@@ -62,6 +62,16 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Core/Src/main.o
  .data          0x0000000000000000        0x0 ./Core/Src/main.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main.o
+ .text          0x0000000000000000        0x0 ./Core/Src/mouse.o
+ .data          0x0000000000000000        0x0 ./Core/Src/mouse.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/mouse.o
+ .text.ProcessMouse
+                0x0000000000000000       0x18 ./Core/Src/mouse.o
+ .bss.mouse_data
+                0x0000000000000000        0x4 ./Core/Src/mouse.o
+ .comment       0x0000000000000000       0x51 ./Core/Src/mouse.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ./Core/Src/mouse.o
  .text          0x0000000000000000        0x0 ./Core/Src/msx.o
  .data          0x0000000000000000        0x0 ./Core/Src/msx.o
  .bss           0x0000000000000000        0x0 ./Core/Src/msx.o
@@ -124,6 +134,14 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./Core/Src/utils.o
  .text.USBH_Get_Device_Data
                 0x0000000000000000       0x3c ./Core/Src/utils.o
+ .text.SetupMouse_Host
+                0x0000000000000000       0x68 ./Core/Src/utils.o
+ .text.SetupMouse
+                0x0000000000000000       0x3c ./Core/Src/utils.o
+ .text.SetPinsOnMouse
+                0x0000000000000000        0x4 ./Core/Src/utils.o
+ .text.SetPinsOffMouse
+                0x0000000000000000        0x4 ./Core/Src/utils.o
  .text          0x0000000000000000       0x14 ./Core/Startup/startup_stm32f730r8tx.o
  .data          0x0000000000000000        0x0 ./Core/Startup/startup_stm32f730r8tx.o
  .bss           0x0000000000000000        0x0 ./Core/Startup/startup_stm32f730r8tx.o
@@ -1500,6 +1518,7 @@ LOAD ./Core/Src/dac.o
 LOAD ./Core/Src/gpio.o
 LOAD ./Core/Src/joystick.o
 LOAD ./Core/Src/main.o
+LOAD ./Core/Src/mouse.o
 LOAD ./Core/Src/msx.o
 LOAD ./Core/Src/stm32f7xx_hal_msp.o
 LOAD ./Core/Src/stm32f7xx_hal_timebase_tim.o
@@ -1728,12 +1747,12 @@ LOAD /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .text.SetupJoystick_Host
                 0x00000000080010d0       0x68 ./Core/Src/utils.o
                 0x00000000080010d0                SetupJoystick_Host
- .text.SetPinsOn
+ .text.SetPinsOnGamepad
                 0x0000000008001138       0x98 ./Core/Src/utils.o
-                0x0000000008001138                SetPinsOn
- .text.SetPinsOff
+                0x0000000008001138                SetPinsOnGamepad
+ .text.SetPinsOffGamepad
                 0x00000000080011d0       0x80 ./Core/Src/utils.o
-                0x00000000080011d0                SetPinsOff
+                0x00000000080011d0                SetPinsOffGamepad
  .text.SetupJoystick
                 0x0000000008001250       0x3c ./Core/Src/utils.o
                 0x0000000008001250                SetupJoystick

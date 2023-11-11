@@ -29,8 +29,14 @@ uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef d
 void SetupJoystick();
 uint8_t SetupJoystick_Host(USBH_HandleTypeDef *phost);
 
-void SetPinsOn();
-void SetPinsOff();
+void SetPinsOnGamepad();
+void SetPinsOffGamepad();
+
+void SetupMouse();
+uint8_t SetupMouse_Host(USBH_HandleTypeDef *phost);
+
+void SetPinsOnMouse();
+void SetPinsOffMouse();
 
 extern USBH_HandleTypeDef hUsbHostFS;
 extern USBH_HandleTypeDef hUsbHostHS;

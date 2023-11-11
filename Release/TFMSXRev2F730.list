@@ -1534,11 +1534,11 @@ Disassembly of section .text:
  8001132:	bf00      	nop
  8001134:	2000047c 	.word	0x2000047c
 
-08001138 <SetPinsOn>:
+08001138 <SetPinsOnGamepad>:
  8001138:	b570      	push	{r4, r5, r6, lr}
  800113a:	b086      	sub	sp, #24
  800113c:	2210      	movs	r2, #16
- 800113e:	4d23      	ldr	r5, [pc, #140]	; (80011cc <SetPinsOn+0x94>)
+ 800113e:	4d23      	ldr	r5, [pc, #140]	; (80011cc <SetPinsOnGamepad+0x94>)
  8001140:	2100      	movs	r1, #0
  8001142:	a802      	add	r0, sp, #8
  8001144:	2601      	movs	r6, #1
@@ -1588,11 +1588,11 @@ Disassembly of section .text:
  80011ca:	bd70      	pop	{r4, r5, r6, pc}
  80011cc:	40020800 	.word	0x40020800
 
-080011d0 <SetPinsOff>:
+080011d0 <SetPinsOffGamepad>:
  80011d0:	b530      	push	{r4, r5, lr}
  80011d2:	b087      	sub	sp, #28
  80011d4:	2214      	movs	r2, #20
- 80011d6:	4d1d      	ldr	r5, [pc, #116]	; (800124c <SetPinsOff+0x7c>)
+ 80011d6:	4d1d      	ldr	r5, [pc, #116]	; (800124c <SetPinsOffGamepad+0x7c>)
  80011d8:	2100      	movs	r1, #0
  80011da:	a801      	add	r0, sp, #4
  80011dc:	2400      	movs	r4, #0
@@ -1652,11 +1652,11 @@ Disassembly of section .text:
  800126c:	2801      	cmp	r0, #1
  800126e:	d105      	bne.n	800127c <SetupJoystick+0x2c>
  8001270:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
- 8001274:	f7ff bf60 	b.w	8001138 <SetPinsOn>
+ 8001274:	f7ff bf60 	b.w	8001138 <SetPinsOnGamepad>
  8001278:	2000      	movs	r0, #0
  800127a:	e7f0      	b.n	800125e <SetupJoystick+0xe>
  800127c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
- 8001280:	f7ff bfa6 	b.w	80011d0 <SetPinsOff>
+ 8001280:	f7ff bfa6 	b.w	80011d0 <SetPinsOffGamepad>
  8001284:	20000480 	.word	0x20000480
  8001288:	2000085c 	.word	0x2000085c
 

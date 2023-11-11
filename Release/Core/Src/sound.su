@@ -1,0 +1,2 @@
+../Core/Src/sound.c:9:9:generateSinValues	0	static
+../Core/Src/sound.c:20:6:initSound	0	static

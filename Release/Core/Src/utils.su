@@ -1,6 +1,10 @@
 ../Core/Src/utils.c:25:10:USBH_Get_Device_Data_Host	4	static
 ../Core/Src/utils.c:4:10:USBH_Get_Device_Data	16	static
 ../Core/Src/utils.c:122:9:SetupJoystick_Host	0	static
-../Core/Src/utils.c:170:6:SetPinsOn	40	static
-../Core/Src/utils.c:223:6:SetPinsOff	40	static
+../Core/Src/utils.c:170:6:SetPinsOnGamepad	40	static
+../Core/Src/utils.c:223:6:SetPinsOffGamepad	40	static
 ../Core/Src/utils.c:92:6:SetupJoystick	8	static
+../Core/Src/utils.c:289:9:SetupMouse_Host	0	static
+../Core/Src/utils.c:262:6:SetupMouse	8	static
+../Core/Src/utils.c:334:6:SetPinsOnMouse	0	static
+../Core/Src/utils.c:387:6:SetPinsOffMouse	0	static
