@@ -1,1 +1,3 @@
-../Core/Src/mouse.c:5:6:ProcessMouse	8	static
+../Core/Src/mouse.c:8:6:ProcessMouse	8	static
+../Core/Src/mouse.c:21:6:MouseIRQ	0	static
+../Core/Src/mouse.c:56:6:EXTI9_5_IRQHandler	8	static

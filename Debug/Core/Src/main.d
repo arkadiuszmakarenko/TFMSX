@@ -68,7 +68,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_parser.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_usage.h \
  ../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Inc/usbh_hub_mouse.h \
- ../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Inc/usbh_hub_gamepad.h
+ ../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Inc/usbh_hub_gamepad.h \
+ ../Core/Inc/mouse.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -144,3 +145,4 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Inc/usbh_hid_usage.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Inc/usbh_hub_mouse.h:
 ../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Inc/usbh_hub_gamepad.h:
+../Core/Inc/mouse.h:

@@ -78,7 +78,7 @@ void MX_USB_HOST_Init(void)
   {
     Error_Handler();
   }
-  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASSHS) != USBH_OK)
+  if (USBH_RegisterClass(&hUsbHostHS, USBH_HID_CLASS) != USBH_OK)
   {
     Error_Handler();
   }
@@ -99,12 +99,6 @@ void MX_USB_HOST_Init(void)
   {
     Error_Handler();
   }
-
-  if (USBH_RegisterClass(&hUsbHostFS, USBH_HUB_CLASS) != USBH_OK)
-{
-  Error_Handler();
-}
-
   if (USBH_Start(&hUsbHostFS) != USBH_OK)
   {
     Error_Handler();

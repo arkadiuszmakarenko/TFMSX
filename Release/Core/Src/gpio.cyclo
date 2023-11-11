@@ -1,3 +1,5 @@
 stm32f7xx_ll_bus.h:309:22:LL_AHB1_GRP1_EnableClock	1
-core_cm7.h:2071:26:NVIC_EncodePriority.constprop	1
+stm32f7xx_ll_gpio.h:484:22:LL_GPIO_SetPinPull.constprop	1
+stm32f7xx_ll_gpio.h:273:22:LL_GPIO_SetPinMode.constprop	1
+core_cm7.h:2071:26:NVIC_EncodePriority.constprop	2
 gpio.c:42:6:MX_GPIO_Init	1

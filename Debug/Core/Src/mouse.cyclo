@@ -1,0 +1,5 @@
+stm32f7xx_ll_exti.h:830:26:LL_EXTI_IsActiveFlag_0_31	1
+stm32f7xx_ll_exti.h:904:22:LL_EXTI_ClearFlag_0_31	1
+mouse.c:8:6:ProcessMouse	2
+mouse.c:24:6:MouseIRQ	5
+mouse.c:59:6:EXTI9_5_IRQHandler	2

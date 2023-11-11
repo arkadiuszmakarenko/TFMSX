@@ -1,4 +1,5 @@
 core_cm7.h:1884:26:__NVIC_GetPriorityGrouping	1
+core_cm7.h:1896:22:__NVIC_EnableIRQ	2
 core_cm7.h:2024:22:__NVIC_SetPriority	2
 core_cm7.h:2071:26:NVIC_EncodePriority	2
 stm32f7xx_ll_system.h:513:22:LL_SYSCFG_SetEXTISource	1

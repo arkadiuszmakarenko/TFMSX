@@ -9,7 +9,7 @@ usbh_core.c:358:10:USBH_FindInterfaceIndex	4
 usbh_core.c:386:21:USBH_Start	1
 usbh_core.c:404:21:USBH_Stop	1
 usbh_core.c:426:20:USBH_ReEnumerate	2
-usbh_core.c:457:21:USBH_Process	67
+usbh_core.c:457:21:USBH_Process	65
 usbh_core.c:1156:7:USBH_LL_SetTimer	1
 usbh_core.c:1168:7:USBH_LL_IncTimer	3
 usbh_core.c:1196:6:USBH_LL_PortEnabled	1
