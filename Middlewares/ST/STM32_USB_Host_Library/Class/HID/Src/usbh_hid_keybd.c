@@ -349,7 +349,7 @@ USBH_StatusTypeDef USBH_HID_KeybdInit(USBH_HandleTypeDef *phost)
   }
   HID_Handle->pData = (uint8_t *)(void *)keybd_rx_report_buf;
 
-  USBH_HID_FifoInit(&HID_Handle->fifo, keybd_fifo_buf, HID_QUEUE_SIZE * sizeof(keybd_report_data));
+  USBH_HID_FifoInit(&HID_Handle->fifo, keybd_fifo_buf, 256);
 
   return USBH_OK;
 }

@@ -1,6 +1,6 @@
-../Core/Src/msx.c:14:6:USB_Keyboard_LED	32	static
-../Core/Src/msx.c:29:6:InitMSXKeyboard	8	static
-../Core/Src/msx.c:37:6:ProcessMSXKey	16	static
-../Core/Src/msx.c:49:6:ProcessMSXKeyboard	24	static
-../Core/Src/msx.c:130:6:ProcessIRQ	0	static
-../Core/Src/msx.c:140:6:EXTI0_IRQHandler	8	static
+msx.c:14:6:USB_Keyboard_LED	32	static
+msx.c:29:6:InitMSXKeyboard	8	static
+msx.c:37:6:ProcessMSXKey	16	static
+msx.c:49:6:ProcessMSXKeyboard	24	static
+msx.c:130:6:ProcessIRQ	0	static
+msx.c:140:6:EXTI0_IRQHandler	8	static

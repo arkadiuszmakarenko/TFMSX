@@ -1,8 +1,8 @@
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:29:27:USBH_HUB_InterfaceInit	32	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:78:27:USBH_HUB_InterfaceDeInit	24	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:109:27:USBH_HUB_ClassRequest	24	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:182:27:USBH_HUB_Process	40	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:287:27:USBH_HUB_SOFProcess	40	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:315:27:USBH_HUB_UpdatePortsStatus	24	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:339:27:USBH_HUB_DisconnectDevice	24	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub.c:355:6:USBH_Next_Interface_Port	24	static
+usbh_hub.c:29:27:USBH_HUB_InterfaceInit	32	static
+usbh_hub.c:78:27:USBH_HUB_InterfaceDeInit	24	static
+usbh_hub.c:109:27:USBH_HUB_ClassRequest	24	static
+usbh_hub.c:182:27:USBH_HUB_Process	40	static
+usbh_hub.c:287:27:USBH_HUB_SOFProcess	40	static
+usbh_hub.c:315:27:USBH_HUB_UpdatePortsStatus	24	static
+usbh_hub.c:339:27:USBH_HUB_DisconnectDevice	24	static
+usbh_hub.c:355:6:USBH_Next_Interface_Port	24	static

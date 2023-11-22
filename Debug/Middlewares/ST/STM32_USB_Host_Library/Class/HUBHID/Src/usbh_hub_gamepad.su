@@ -1,3 +1,3 @@
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_gamepad.c:26:20:USBH_HUB_GamepadInit	24	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_gamepad.c:43:27:USBH_HUB_GetGamepadInfo	16	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HUBHID/Src/usbh_hub_gamepad.c:58:27:USBH_HUB_GamepadDecode	112	static
+usbh_hub_gamepad.c:26:20:USBH_HUB_GamepadInit	24	static
+usbh_hub_gamepad.c:43:27:USBH_HUB_GetGamepadInfo	16	static
+usbh_hub_gamepad.c:58:27:USBH_HUB_GamepadDecode	112	static

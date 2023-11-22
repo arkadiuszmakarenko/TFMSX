@@ -48,7 +48,7 @@ void ProcessMSXKey(uint8_t usbkey)
 
 void ProcessMSXKeyboard(){
 
-	HID_KEYBD_Info_TypeDef *kb_data = (HID_KEYBD_Info_TypeDef *)USBH_Get_Device_Data_Host(&hUsbHostFS, HUB_KEYBOARD);
+	HID_KEYBD_Info_TypeDef *kb_data = (HID_KEYBD_Info_TypeDef *)USBH_Get_Device_Data(HUB_KEYBOARD);
 
 
 	//keyboard hasn't return any data, so there was no change in state.

@@ -21,19 +21,21 @@ typedef struct
   uint8_t  lock;
 } FIFO_Utils_TypeDef;
 
-uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef DeviceType);
-uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef deviceType);
-
+uint8_t *USBH_Get_Device_Data(HUB_DEVICETypeDef deviceType);
+uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef deviceType, ApplicationTypeDef Application_state);
 
 
 void SetupJoystick();
-uint8_t SetupJoystick_Host(USBH_HandleTypeDef *phost);
+uint8_t SetupJoystick_Host(USBH_HandleTypeDef *phost,ApplicationTypeDef Application_state);
 
 void SetPinsOn();
 void SetPinsOff();
 
+void SetLEDs();
+
 extern USBH_HandleTypeDef hUsbHostFS;
 extern USBH_HandleTypeDef hUsbHostHS;
 extern ApplicationTypeDef Appli_state;
+extern ApplicationTypeDef Appli_stateFS;
 
 #endif

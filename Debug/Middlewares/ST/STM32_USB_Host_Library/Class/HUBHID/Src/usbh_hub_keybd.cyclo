@@ -1,3 +1,0 @@
-usbh_hub_keybd.c:127:20:USBH_HUB_KeybdInit	3
-usbh_hub_keybd.c:159:25:USBH_HUB_GetKeybdInfo	2
-usbh_hub_keybd.c:173:20:USBH_HUB_KeybdDecode	6

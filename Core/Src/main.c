@@ -113,6 +113,8 @@ int main(void)
      ProcessMSXKeyboard();
      ProcessJoystick();
 
+     SetLEDs();
+
   }
 
   /* USER CODE END 3 */

@@ -1,6 +1,4 @@
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
-../USB_HOST/App/usb_host.c:70:6:MX_USB_HOST_Init	8	static
-../USB_HOST/App/usb_host.c:126:6:MX_USB_HOST_Process	8	static
-../USB_HOST/App/usb_host.c:135:13:USBH_UserProcess1	16	static
-../USB_HOST/App/usb_host.c:163:13:USBH_UserProcess2	16	static
+usb_host.c:71:6:MX_USB_HOST_Init	8	static
+usb_host.c:127:6:MX_USB_HOST_Process	8	static
+usb_host.c:136:13:USBH_UserProcess1	16	static
+usb_host.c:163:13:USBH_UserProcess2	16	static

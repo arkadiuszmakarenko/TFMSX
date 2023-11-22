@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
 ################################################################################
 
 -include ../makefile.init
@@ -48,9 +48,6 @@ BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ART
 EXECUTABLES += \
 TFMSXRev2F730.elf \
 
-MAP_FILES += \
-TFMSXRev2F730.map \
-
 SIZE_OUTPUT += \
 default.size.stdout \
 
@@ -68,8 +65,8 @@ all: main-build
 main-build: TFMSXRev2F730.elf secondary-outputs
 
 # Tool invocations
-TFMSXRev2F730.elf TFMSXRev2F730.map: $(OBJS) $(USER_OBJS) /home/makaron/Repo/TFMSX/TFMSX/STM32F730R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "TFMSXRev2F730.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/makaron/Repo/TFMSX/TFMSX/STM32F730R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TFMSXRev2F730.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+TFMSXRev2F730.elf: $(OBJS) $(USER_OBJS) C:\Repo\TFMSXRev2\TFMSX\STM32F730R8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "TFMSXRev2F730.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Repo\TFMSXRev2\TFMSX\STM32F730R8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TFMSXRev2F730.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -90,7 +87,7 @@ TFMSXRev2F730.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 
 # Other Targets
 clean:
-	-$(RM) TFMSXRev2F730.bin TFMSXRev2F730.elf TFMSXRev2F730.list TFMSXRev2F730.map default.size.stdout
+	-$(RM) TFMSXRev2F730.bin TFMSXRev2F730.elf TFMSXRev2F730.list default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)

@@ -1,2 +1,2 @@
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.c:126:20:USBH_HID_GamepadInit	16	static
-../Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_gamepad.c:152:27:USBH_HID_GetGamepadInfo	104	static
+usbh_hid_gamepad.c:126:20:USBH_HID_GamepadInit	16	static
+usbh_hid_gamepad.c:152:27:USBH_HID_GetGamepadInfo	104	static
