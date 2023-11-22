@@ -1,6 +1,9 @@
-../Core/Src/utils.c:4:10:USBH_Get_Device_Data	32	static
-../Core/Src/utils.c:25:10:USBH_Get_Device_Data_Host	40	static
-../Core/Src/utils.c:92:6:SetupJoystick	24	static
-../Core/Src/utils.c:122:9:SetupJoystick_Host	40	static
-../Core/Src/utils.c:170:6:SetPinsOn	32	static
-../Core/Src/utils.c:223:6:SetPinsOff	32	static
+stm32f7xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+stm32f7xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+utils.c:4:10:USBH_Get_Device_Data	32	static
+utils.c:28:10:USBH_Get_Device_Data_Host	40	static
+utils.c:95:6:SetupJoystick	24	static
+utils.c:125:9:SetupJoystick_Host	40	static
+utils.c:173:6:SetPinsOn	32	static
+utils.c:237:6:SetPinsOff	32	static
+utils.c:289:6:SetLEDs	16	static

@@ -1,6 +1,0 @@
-msx.c:14:6:USB_Keyboard_LED	2
-msx.c:29:6:InitMSXKeyboard	1
-msx.c:37:6:ProcessMSXKey	3
-msx.c:49:6:ProcessMSXKeyboard	13
-msx.c:130:6:ProcessIRQ	1
-msx.c:140:6:EXTI0_IRQHandler	2

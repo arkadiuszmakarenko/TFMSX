@@ -42,6 +42,7 @@
 USBH_HandleTypeDef hUsbHostHS;
 USBH_HandleTypeDef hUsbHostFS;
 ApplicationTypeDef Appli_state = APPLICATION_IDLE;
+ApplicationTypeDef Appli_stateFS = APPLICATION_IDLE;
 
 /*
  * -- Insert your variables declaration here --
@@ -142,12 +143,11 @@ static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
 
   case HOST_USER_DISCONNECTION:
   Appli_state = APPLICATION_DISCONNECT;
-  LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_13);
+
   break;
 
   case HOST_USER_CLASS_ACTIVE:
   Appli_state = APPLICATION_READY;
-  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_13);
   break;
 
   case HOST_USER_CONNECTION:
@@ -169,19 +169,15 @@ static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
   break;
 
   case HOST_USER_DISCONNECTION:
-  Appli_state = APPLICATION_DISCONNECT;
-  LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_13);
+  Appli_stateFS = APPLICATION_DISCONNECT;
   break;
 
   case HOST_USER_CLASS_ACTIVE:
-  Appli_state = APPLICATION_READY;
-  LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_13);
-
-
+  Appli_stateFS = APPLICATION_READY;
   break;
 
   case HOST_USER_CONNECTION:
-  Appli_state = APPLICATION_START;
+  Appli_stateFS = APPLICATION_START;
   break;
 
   default:

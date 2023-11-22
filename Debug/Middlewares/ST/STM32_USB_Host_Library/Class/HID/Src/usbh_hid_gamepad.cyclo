@@ -1,3 +1,0 @@
-usbh_hid_gamepad.c:126:20:USBH_HID_GamepadInit	1
-usbh_hid_gamepad.c:152:27:USBH_HID_GetGamepadInfo	2
-usbh_hid_gamepad.c:173:27:USBH_HID_GamepadDecode	22

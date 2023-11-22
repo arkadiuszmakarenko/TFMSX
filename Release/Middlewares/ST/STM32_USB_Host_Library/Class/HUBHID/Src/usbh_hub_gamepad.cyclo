@@ -1,2 +1,0 @@
-usbh_hub_gamepad.c:26:20:USBH_HUB_GamepadInit	1
-usbh_hub_gamepad.c:43:27:USBH_HUB_GetGamepadInfo	18

@@ -1,1 +1,1 @@
-../Core/Src/joystick.c:5:6:ProcessJoystick	8	static
+joystick.c:5:6:ProcessJoystick	8	static
