@@ -1,0 +1,10 @@
+# Make-based build output
+/build/
+
+# STM32CubeIDE generated build trees
+/Debug/
+/Release/
+
+# Editor / OS noise
+*.swp
+.DS_Store
