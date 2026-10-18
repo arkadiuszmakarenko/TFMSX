@@ -56,6 +56,15 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
+#ifndef TFMSX_DEBUG
+#define TFMSX_DEBUG 0
+#endif
+
+#if TFMSX_DEBUG
+#define TFMSX_DEBUG_PRINTF(...) printf(__VA_ARGS__)
+#else
+#define TFMSX_DEBUG_PRINTF(...) do { } while (0)
+#endif
 
 /* USER CODE END EM */
 

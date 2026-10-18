@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdio.h>
 #include "dac.h"
 #include "usart.h"
 #include "usb_host.h"
@@ -61,6 +62,22 @@ void MX_USB_HOST_Process(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+int __io_putchar(int ch)
+{
+  static int previous = 0;
+  uint8_t byte;
+
+  if ((ch == '\n') && (previous != '\r'))
+  {
+    byte = '\r';
+    HAL_UART_Transmit(&huart5, &byte, 1, HAL_MAX_DELAY);
+  }
+
+  byte = (uint8_t)ch;
+  HAL_UART_Transmit(&huart5, &byte, 1, HAL_MAX_DELAY);
+  previous = ch;
+  return ch;
+}
 
 /* USER CODE END 0 */
 
@@ -99,6 +116,7 @@ int main(void)
   MX_DAC_Init();
   /* USER CODE BEGIN 2 */
   InitMSXKeyboard();
+  TFMSX_DEBUG_PRINTF("TFMSX started\r\n");
 
   /* USER CODE END 2 */
 

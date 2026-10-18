@@ -1,0 +1,1626 @@
+TFMSX started
+TFMSX started
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB HS connected
+USB FS host low-level init
+TFMSX started
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+HID class started.
+USB HS class active
+USB HS class active
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB HS connected
+USB FS host low-level init
+TFMSX started
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+HID class started.
+USB HS class active
+USB HS class active
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB FS host low-level init
+TFMSX started
+USB HS connected
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+HID class started.
+USB HS class active
+USB HS class active
+USB HS disconnected
+USB HS host disconnected
+USB Device disconnected
+USB FS connected
+USB Device Connected
+USB Device Reset Completed
+USB FS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#0)
+Class    : 3h
+SubClass : 1h
+Protocol : 1h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+Switching to Interface (#1)
+Class    : 3h
+SubClass : 1h
+Protocol : 2h
+HID class started.
+USB FS class active
+USB FS class active
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB FS host low-level init
+USB FS connected
+TFMSX started
+USB Device Connected
+USB Device Reset Completed
+USB FS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 4F 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 52 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 52 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 4F 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 4F 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 4F 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 4F 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 4F 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 4F 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 4F 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+USB FS disconnected
+USB FS host disconnected
+USB Device disconnected
+USB HS connected
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 51 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 50 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 50 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 50 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 52 2C 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 52 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=52 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=51 4F 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 2C 00 00 00
+HID keyboard report: modifiers=00 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=06 50 00 00 00 00
+HID keyboard report: modifiers=03 keys=08 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=1E 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=36 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=54 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=46 50 00 00 00 00
+HID keyboard report: modifiers=03 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=44 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=34 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=23 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=17 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=14 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=11 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0E 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=10 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=16 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=10 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 02 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 03 00 00 00
+HID keyboard report: modifiers=03 keys=02 00 02 00 00 00
+HID keyboard report: modifiers=03 keys=21 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=23 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=16 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 00 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0B 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=07 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 50 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 60 00 00 00 00
+HID keyboard report: modifiers=03 keys=06 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=08 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0A 00 01 00 00 00
+HID keyboard report: modifiers=03 keys=0B 20 01 00 00 00
+HID keyboard report: modifiers=03 keys=0C 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0F 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=0E 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0C 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 01 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0C 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=25 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=24 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=20 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=10 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 02 00 00 00
+HID keyboard report: modifiers=03 keys=08 00 01 00 00 00
+HID keyboard report: modifiers=03 keys=15 40 01 00 00 00
+HID keyboard report: modifiers=03 keys=1E 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=20 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=14 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0A 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 01 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=09 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0F 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=16 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=15 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 02 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 02 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 02 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 01 00 00 00
+HID keyboard report: modifiers=03 keys=0A 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=0C 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=07 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0F 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=10 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=19 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=17 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=05 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=02 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 1F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 4F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 02 00 00 00
+HID keyboard report: modifiers=03 keys=02 10 01 00 00 00
+HID keyboard report: modifiers=03 keys=11 60 00 01 00 00
+HID keyboard report: modifiers=03 keys=1F 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=2F 60 00 01 00 00
+HID keyboard report: modifiers=03 keys=1E 00 00 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 01 00 00
+HID keyboard report: modifiers=03 keys=0D 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=03 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=10 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=34 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=17 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 03 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 04 00 00 00
+HID keyboard report: modifiers=03 keys=00 2F 06 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 05 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 04 00 00 00
+HID keyboard report: modifiers=03 keys=00 3F 01 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 00 00 00 00
+HID keyboard report: modifiers=03 keys=1D 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=41 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=61 40 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 01 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 10 04 00 00 00
+HID keyboard report: modifiers=03 keys=14 00 06 00 00 00
+HID keyboard report: modifiers=03 keys=00 0F 07 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 06 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 03 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 03 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 02 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 01 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 5F 00 00 00 00
+HID keyboard report: modifiers=03 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=63 30 01 00 00 00
+HID keyboard report: modifiers=03 keys=2A 00 01 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=0C 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=01 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=19 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=13 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=23 20 00 00 00 00
+HID keyboard report: modifiers=03 keys=2A 30 00 00 00 00
+HID keyboard report: modifiers=03 keys=30 10 00 00 00 00
+HID keyboard report: modifiers=03 keys=35 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=49 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=4B 50 00 00 00 00
+HID keyboard report: modifiers=03 keys=47 00 00 00 00 00
+HID keyboard report: modifiers=03 keys=39 00 00 00 00 00
+USB HS disconnected
+USB HS connected
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB HS connected
+USB FS host low-level init
+TFMSX started
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 19 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 19 05 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 05 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=0B 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=0B 11 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 11 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=19 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=19 05 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 05 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=4F 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=50 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+USB HS connected
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB FS host low-level init
+TFMSX started
+USB FS connected
+USB Device Connected
+USB Device Reset Completed
+USB FS host connected
+PID: 328h
+VID: 145fh
+Address (#1) assigned.
+Manufacturer : MOSART Semi.
+Product : Primo Deskset
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=04 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=11 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 09 00 00
+HID keyboard report: modifiers=00 keys=00 16 07 09 00 00
+HID keyboard report: modifiers=00 keys=00 00 07 09 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 09 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+USB FS disconnected
+USB FS host disconnected
+USB Device disconnected
+USB HS connected
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: c316h
+VID: 46dh
+Address (#1) assigned.
+Manufacturer : Logitech
+Product : Logitech USB Keyboard
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=00 keys=10 0F 33 00 00 00
+HID keyboard report: modifiers=00 keys=0F 33 00 00 00 00
+HID keyboard report: modifiers=00 keys=0F 33 0E 00 00 00
+HID keyboard report: modifiers=00 keys=0F 0E 00 00 00 00
+HID keyboard report: modifiers=00 keys=0F 04 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 0E 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 0E 16 00 00 00
+HID keyboard report: modifiers=00 keys=0E 16 00 00 00 00
+HID keyboard report: modifiers=00 keys=0E 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 04 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 04 07 00 00 00
+HID keyboard report: modifiers=00 keys=16 07 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=1E 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=1E 2A 00 00 00 00
+HID keyboard report: modifiers=00 keys=1E 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=21 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=21 20 00 00 00 00
+HID keyboard report: modifiers=00 keys=21 20 2D 00 00 00
+HID keyboard report: modifiers=00 keys=25 26 22 23 00 00
+HID keyboard report: modifiers=00 keys=25 23 00 00 00 00
+HID keyboard report: modifiers=00 keys=25 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=25 22 00 00 00 00
+HID keyboard report: modifiers=00 keys=22 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=26 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 2A 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3B 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3C 3B 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3B 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3B 3A 00 00 00 00
+HID keyboard report: modifiers=00 keys=3B 3C 3D 00 00 00
+HID keyboard report: modifiers=00 keys=3D 3E 00 00 00 00
+HID keyboard report: modifiers=00 keys=3E 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3E 3F 00 00 00 00
+HID keyboard report: modifiers=00 keys=3E 3F 40 00 00 00
+HID keyboard report: modifiers=00 keys=3E 3F 40 41 00 00
+HID keyboard report: modifiers=00 keys=3E 3F 40 00 00 00
+HID keyboard report: modifiers=00 keys=3F 40 00 00 00 00
+HID keyboard report: modifiers=00 keys=40 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=3F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=42 43 00 00 00 00
+HID keyboard report: modifiers=00 keys=42 2A 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 2E 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 28 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 29 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2A 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=07 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=07 09 00 00 00 00
+HID keyboard report: modifiers=00 keys=09 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 09 00 00
+HID keyboard report: modifiers=00 keys=09 34 32 00 00 00
+HID keyboard report: modifiers=00 keys=34 32 0F 00 00 00
+HID keyboard report: modifiers=00 keys=0F 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=0E 0F 33 00 00 00
+HID keyboard report: modifiers=00 keys=0A 0B 00 00 00 00
+HID keyboard report: modifiers=00 keys=0B 0E 00 00 00 00
+HID keyboard report: modifiers=00 keys=0B 0E 0F 33 00 00
+HID keyboard report: modifiers=00 keys=0E 0F 33 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 09 00 00 00 00
+HID keyboard report: modifiers=00 keys=16 09 33 00 00 00
+HID keyboard report: modifiers=00 keys=09 33 00 00 00 00
+HID keyboard report: modifiers=00 keys=09 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 16 09 00 00 00
+HID keyboard report: modifiers=00 keys=2C 0C 36 00 00 00
+HID keyboard report: modifiers=00 keys=2C 0C 36 30 00 00
+HID keyboard report: modifiers=00 keys=2C 0C 17 20 00 00
+HID keyboard report: modifiers=00 keys=2C 0C 17 20 27 00
+HID keyboard report: modifiers=00 keys=2C 0C 17 27 00 00
+HID keyboard report: modifiers=00 keys=2C 17 27 00 00 00
+HID keyboard report: modifiers=00 keys=2C 27 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 27 2B 00 00 00
+HID keyboard report: modifiers=00 keys=2C 2B 00 00 00 00
+HID keyboard report: modifiers=40 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 17 0E 00 00 00
+HID keyboard report: modifiers=00 keys=2C 17 0E 12 00 00
+HID keyboard report: modifiers=00 keys=2C 17 0E 2F 00 00
+HID keyboard report: modifiers=01 keys=2C 26 12 00 00 00
+HID keyboard report: modifiers=05 keys=2C 0C 00 00 00 00
+HID keyboard report: modifiers=05 keys=2C 0C 1E 00 00 00
+HID keyboard report: modifiers=05 keys=01 01 01 01 01 01
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 28 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 28 35 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=28 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 2C 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=29 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+USB HS host low-level init (internal PHY, full-speed signaling)
+USB HS connected
+USB FS host low-level init
+TFMSX started
+USB Device Connected
+USB Device Reset Completed
+USB HS host connected
+PID: c316h
+VID: 46dh
+Address (#1) assigned.
+Manufacturer : Logitech
+Product : Logitech USB Keyboard
+Serial Number : N/A
+Enumeration done.
+This device has only 1 configuration.
+Default configuration set.
+Device remote wakeup enabled
+HID class started.
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=2C 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=07 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=07 16 00 00 00 00
+HID keyboard report: modifiers=00 keys=07 16 09 00 00 00
+HID keyboard report: modifiers=00 keys=07 09 00 00 00 00
+HID keyboard report: modifiers=00 keys=09 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 00 00 00
+HID keyboard report: modifiers=00 keys=04 16 07 09 00 00
+HID keyboard report: modifiers=00 keys=16 07 09 00 00 00
+HID keyboard report: modifiers=00 keys=07 09 00 00 00 00
+HID keyboard report: modifiers=00 keys=09 00 00 00 00 00
+HID keyboard report: modifiers=00 keys=00 00 00 00 00 00

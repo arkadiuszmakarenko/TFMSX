@@ -20,6 +20,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f7xx_it.h"
+#include <stdio.h>
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 /* USER CODE END Includes */
@@ -51,6 +52,48 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+const char HardFault_Name[] = "HardFault";
+const char MemManage_Name[] = "MemManage/MPU fault";
+const char BusFault_Name[] = "BusFault";
+const char UsageFault_Name[] = "UsageFault";
+
+static void Fault_Report(const char *name, uint32_t *stack, uint32_t exc_return)
+{
+  static volatile uint32_t reported;
+
+  __disable_irq();
+  if (reported != 0U)
+  {
+    while (1) { }
+  }
+  reported = 1U;
+
+  printf("\r\n*** %s ***\r\n", name);
+  printf("EXC_RETURN=%08lX\r\n", (unsigned long)exc_return);
+  printf("R0=%08lX R1=%08lX R2=%08lX R3=%08lX\r\n",
+         (unsigned long)stack[0], (unsigned long)stack[1],
+         (unsigned long)stack[2], (unsigned long)stack[3]);
+  printf("R12=%08lX LR=%08lX PC=%08lX xPSR=%08lX\r\n",
+         (unsigned long)stack[4], (unsigned long)stack[5],
+         (unsigned long)stack[6], (unsigned long)stack[7]);
+  printf("CFSR=%08lX HFSR=%08lX DFSR=%08lX AFSR=%08lX\r\n",
+         (unsigned long)SCB->CFSR, (unsigned long)SCB->HFSR,
+         (unsigned long)SCB->DFSR, (unsigned long)SCB->AFSR);
+  printf("MMFAR=%08lX BFAR=%08lX SHCSR=%08lX\r\n",
+         (unsigned long)SCB->MMFAR, (unsigned long)SCB->BFAR,
+         (unsigned long)SCB->SHCSR);
+  printf("MSP=%08lX PSP=%08lX CONTROL=%08lX\r\n",
+         (unsigned long)__get_MSP(), (unsigned long)__get_PSP(),
+         (unsigned long)__get_CONTROL());
+  printf("System halted.\r\n");
+
+  while (1) { }
+}
+
+void Fault_HandlerC(uint32_t *stack, uint32_t exc_return, const char *name)
+{
+  Fault_Report(name, stack, exc_return);
+}
 
 /* USER CODE END 0 */
 
@@ -87,61 +130,57 @@ void NMI_Handler(void)
 /**
   * @brief This function handles Hard fault interrupt.
   */
-void HardFault_Handler(void)
+__attribute__((naked)) void HardFault_Handler(void)
 {
-  /* USER CODE BEGIN HardFault_IRQn 0 */
-
-  /* USER CODE END HardFault_IRQn 0 */
-  while (1)
-  {
-    /* USER CODE BEGIN W1_HardFault_IRQn 0 */
-    /* USER CODE END W1_HardFault_IRQn 0 */
-  }
+  __asm volatile("tst lr, #4\n"
+                 "ite eq\n"
+                 "mrseq r0, msp\n"
+                 "mrsne r0, psp\n"
+                 "mov r1, lr\n"
+                 "ldr r2, =HardFault_Name\n"
+                 "b Fault_HandlerC\n");
 }
 
 /**
   * @brief This function handles Memory management fault.
   */
-void MemManage_Handler(void)
+__attribute__((naked)) void MemManage_Handler(void)
 {
-  /* USER CODE BEGIN MemoryManagement_IRQn 0 */
-
-  /* USER CODE END MemoryManagement_IRQn 0 */
-  while (1)
-  {
-    /* USER CODE BEGIN W1_MemoryManagement_IRQn 0 */
-    /* USER CODE END W1_MemoryManagement_IRQn 0 */
-  }
+  __asm volatile("tst lr, #4\n"
+                 "ite eq\n"
+                 "mrseq r0, msp\n"
+                 "mrsne r0, psp\n"
+                 "mov r1, lr\n"
+                 "ldr r2, =MemManage_Name\n"
+                 "b Fault_HandlerC\n");
 }
 
 /**
   * @brief This function handles Pre-fetch fault, memory access fault.
   */
-void BusFault_Handler(void)
+__attribute__((naked)) void BusFault_Handler(void)
 {
-  /* USER CODE BEGIN BusFault_IRQn 0 */
-
-  /* USER CODE END BusFault_IRQn 0 */
-  while (1)
-  {
-    /* USER CODE BEGIN W1_BusFault_IRQn 0 */
-    /* USER CODE END W1_BusFault_IRQn 0 */
-  }
+  __asm volatile("tst lr, #4\n"
+                 "ite eq\n"
+                 "mrseq r0, msp\n"
+                 "mrsne r0, psp\n"
+                 "mov r1, lr\n"
+                 "ldr r2, =BusFault_Name\n"
+                 "b Fault_HandlerC\n");
 }
 
 /**
   * @brief This function handles Undefined instruction or illegal state.
   */
-void UsageFault_Handler(void)
+__attribute__((naked)) void UsageFault_Handler(void)
 {
-  /* USER CODE BEGIN UsageFault_IRQn 0 */
-
-  /* USER CODE END UsageFault_IRQn 0 */
-  while (1)
-  {
-    /* USER CODE BEGIN W1_UsageFault_IRQn 0 */
-    /* USER CODE END W1_UsageFault_IRQn 0 */
-  }
+  __asm volatile("tst lr, #4\n"
+                 "ite eq\n"
+                 "mrseq r0, msp\n"
+                 "mrsne r0, psp\n"
+                 "mov r1, lr\n"
+                 "ldr r2, =UsageFault_Name\n"
+                 "b Fault_HandlerC\n");
 }
 
 /**

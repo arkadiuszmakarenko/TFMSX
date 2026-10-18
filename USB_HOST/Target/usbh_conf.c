@@ -216,6 +216,7 @@ void HAL_HCD_SOF_Callback(HCD_HandleTypeDef *hhcd)
   */
 void HAL_HCD_Connect_Callback(HCD_HandleTypeDef *hhcd)
 {
+  USBH_UsrLog("USB %s connected", (hhcd->Instance == USB_OTG_FS) ? "FS" : "HS");
   USBH_LL_Connect(hhcd->pData);
 }
 
@@ -226,6 +227,7 @@ void HAL_HCD_Connect_Callback(HCD_HandleTypeDef *hhcd)
   */
 void HAL_HCD_Disconnect_Callback(HCD_HandleTypeDef *hhcd)
 {
+  USBH_UsrLog("USB %s disconnected", (hhcd->Instance == USB_OTG_FS) ? "FS" : "HS");
   USBH_LL_Disconnect(hhcd->pData);
 }
 
@@ -276,6 +278,7 @@ USBH_StatusTypeDef USBH_LL_Init(USBH_HandleTypeDef *phost)
 {
   /* Init USB_IP */
   if (phost->id == HOST_FS) {
+  USBH_UsrLog("USB FS host low-level init");
   /* Link the driver to the stack. */
   hhcd_USB_OTG_FS.pData = phost;
   phost->pData = &hhcd_USB_OTG_FS;
@@ -295,6 +298,7 @@ USBH_StatusTypeDef USBH_LL_Init(USBH_HandleTypeDef *phost)
   USBH_LL_SetTimer(phost, HAL_HCD_GetCurrentFrame(&hhcd_USB_OTG_FS));
   }
   if (phost->id == HOST_HS) {
+  USBH_UsrLog("USB HS host low-level init (internal PHY, full-speed signaling)");
   /* Link the driver to the stack. */
   hhcd_USB_OTG_HS.pData = phost;
   phost->pData = &hhcd_USB_OTG_HS;

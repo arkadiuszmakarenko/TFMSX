@@ -18,9 +18,12 @@ TARGET      := TFMSXRev2F730
 # Build configuration: "debug" (default) or "release"
 CONFIG      ?= debug
 CONFIG      := $(strip $(CONFIG))
+DEBUG       ?= 0
+DEBUG       := $(strip $(DEBUG))
 LDSCRIPT    ?= STM32F730R8TX_FLASH.ld
 BUILD_DIR   := build/$(CONFIG)
 OBJ_DIR     := $(BUILD_DIR)/obj
+DEBUG_STAMP := $(BUILD_DIR)/.printf-debug-$(DEBUG)
 
 ELF         := $(BUILD_DIR)/$(TARGET).elf
 BIN         := $(BUILD_DIR)/$(TARGET).bin
@@ -40,7 +43,7 @@ GDB         ?= $(PREFIX)gdb
 CPU_FLAGS   := -mcpu=cortex-m7 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb
 
 # ---- Defines / include paths ----------------------------------------------
-DEFS        := -DUSE_HAL_DRIVER -DSTM32F730xx -DUSE_FULL_LL_DRIVER
+DEFS        := -DUSE_HAL_DRIVER -DSTM32F730xx -DUSE_FULL_LL_DRIVER -DTFMSX_DEBUG=$(DEBUG)
 
 INCLUDES    := \
   -ICore/Inc \
@@ -70,7 +73,7 @@ ASM_SOURCES := $(wildcard Core/Startup/*.s)
 SPECS       := --specs=nano.specs
 
 ifeq ($(CONFIG),debug)
-  OPT       := -O0
+  OPT       := -Og
   DEBUG_DEF := -DDEBUG
   DBG_FLAGS := -g3
 else ifeq ($(CONFIG),release)
@@ -135,15 +138,19 @@ $(BUILD_DIR)/$(TARGET).list: $(ELF)
 	@$(OD) -h -S $< > $@
 
 # ---- Compile / assemble ----------------------------------------------------
-$(OBJ_DIR)/%.o: %.c Makefile
+$(OBJ_DIR)/%.o: %.c Makefile $(DEBUG_STAMP)
 	@mkdir -p $(dir $@)
 	@echo "  CC      $<"
 	@$(CC) $(CFLAGS) -MF $(@:.o=.d) -c $< -o $@
 
-$(OBJ_DIR)/%.o: %.s Makefile
+$(OBJ_DIR)/%.o: %.s Makefile $(DEBUG_STAMP)
 	@mkdir -p $(dir $@)
 	@echo "  AS      $<"
 	@$(AS) $(ASFLAGS) -MF $(@:.o=.d) -c $< -o $@
+
+$(DEBUG_STAMP):
+	@mkdir -p $(BUILD_DIR)
+	@touch $@
 
 # ============================================================================
 #  Programming / debugging (ST-Link via OpenOCD by default)
@@ -207,6 +214,7 @@ help:
 	@echo "TFMSX build system"
 	@echo ""
 	@echo "  make [CONFIG=debug|release]   Build ELF/BIN/HEX (default: debug)"
+	@echo "  make flash DEBUG=1             Enable USB/data printf diagnostics"
 	@echo "  make release                  Optimized build (-Os)"
 	@echo "  make debug                    Debug build (-O0 -g3)"
 	@echo "  make flash                    Program via ST-Link/OpenOCD"

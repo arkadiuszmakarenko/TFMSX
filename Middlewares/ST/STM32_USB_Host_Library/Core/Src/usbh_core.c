@@ -284,10 +284,6 @@ USBH_StatusTypeDef USBH_SelectInterface(USBH_HandleTypeDef *phost, uint8_t inter
   if (interface < phost->device.CfgDesc.bNumInterfaces)
   {
     phost->device.current_interface = interface;
-    USBH_UsrLog("Switching to Interface (#%d)", interface);
-    USBH_UsrLog("Class    : %xh", phost->device.CfgDesc.Itf_Desc[interface].bInterfaceClass);
-    USBH_UsrLog("SubClass : %xh", phost->device.CfgDesc.Itf_Desc[interface].bInterfaceSubClass);
-    USBH_UsrLog("Protocol : %xh", phost->device.CfgDesc.Itf_Desc[interface].bInterfaceProtocol);
   }
   else
   {

@@ -69,6 +69,12 @@ void HAL_MspInit(void)
   __HAL_RCC_PWR_CLK_ENABLE();
   __HAL_RCC_SYSCFG_CLK_ENABLE();
 
+  /* Enable configurable fault exceptions so they reach the diagnostic
+     handlers instead of being escalated directly to HardFault. */
+  SCB->SHCSR |= SCB_SHCSR_MEMFAULTENA_Msk |
+                SCB_SHCSR_BUSFAULTENA_Msk |
+                SCB_SHCSR_USGFAULTENA_Msk;
+
   /* System interrupt init*/
   /* MemoryManagement_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(MemoryManagement_IRQn, 1, 0);

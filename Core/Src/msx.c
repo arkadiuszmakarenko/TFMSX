@@ -1,6 +1,7 @@
 #include "msx.h"
 #include "usbh_hub_keybd.h"
 #include "utils.h"
+#include <stdio.h>
 
 uint32_t MSX_Matrix_data[12];
 uint32_t MSX_Matrix_temp[12];
@@ -9,6 +10,8 @@ HID_KEYBD_Info_TypeDef *kb_data;
 
 static uint8_t PreviousCapsLockStatus = 1;
 static keyboard_led_t LEDStatus = 0;
+static HID_KEYBD_Info_TypeDef last_keyboard_report;
+static uint8_t have_keyboard_report;
 
 
 void USB_Keyboard_LED(keyboard_led_t ld) {
@@ -52,7 +55,23 @@ void ProcessMSXKeyboard(){
 
 
 	//keyboard hasn't return any data, so there was no change in state.
-	if (kb_data==NULL) return;
+  if (kb_data==NULL) return;
+
+  if ((have_keyboard_report == 0U) ||
+      (memcmp(kb_data, &last_keyboard_report, sizeof(last_keyboard_report)) != 0))
+  {
+    TFMSX_DEBUG_PRINTF("HID keyboard report: modifiers=%02X keys=%02X %02X %02X %02X %02X %02X\r\n",
+           (unsigned)((kb_data->lctrl ? 0x01U : 0U) |
+                      (kb_data->lshift ? 0x02U : 0U) |
+                      (kb_data->lalt ? 0x04U : 0U) |
+                      (kb_data->rctrl ? 0x10U : 0U) |
+                      (kb_data->rshift ? 0x20U : 0U) |
+                      (kb_data->ralt ? 0x40U : 0U)),
+           kb_data->keys[0], kb_data->keys[1], kb_data->keys[2],
+           kb_data->keys[3], kb_data->keys[4], kb_data->keys[5]);
+    memcpy(&last_keyboard_report, kb_data, sizeof(last_keyboard_report));
+    have_keyboard_report = 1U;
+  }
 
 	//reset temp array to zero
 	memset(&MSX_Matrix_temp, 0, sizeof(MSX_Matrix_temp));

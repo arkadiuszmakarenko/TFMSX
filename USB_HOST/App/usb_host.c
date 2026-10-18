@@ -142,6 +142,7 @@ static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
   break;
 
   case HOST_USER_DISCONNECTION:
+  USBH_UsrLog("USB HS host disconnected");
   Appli_state = APPLICATION_DISCONNECT;
 
   break;
@@ -151,6 +152,7 @@ static void USBH_UserProcess1  (USBH_HandleTypeDef *phost, uint8_t id)
   break;
 
   case HOST_USER_CONNECTION:
+  USBH_UsrLog("USB HS host connected");
   Appli_state = APPLICATION_START;
   break;
 
@@ -169,6 +171,7 @@ static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
   break;
 
   case HOST_USER_DISCONNECTION:
+  USBH_UsrLog("USB FS host disconnected");
   Appli_stateFS = APPLICATION_DISCONNECT;
   break;
 
@@ -177,6 +180,7 @@ static void USBH_UserProcess2  (USBH_HandleTypeDef *phost, uint8_t id)
   break;
 
   case HOST_USER_CONNECTION:
+  USBH_UsrLog("USB FS host connected");
   Appli_stateFS = APPLICATION_START;
   break;
 

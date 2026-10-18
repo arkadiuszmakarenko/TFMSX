@@ -83,7 +83,11 @@
 #define USBH_MAX_DATA_BUFFER      512U
 
 /*----------   -----------*/
+#if TFMSX_DEBUG
+#define USBH_DEBUG_LEVEL      3U
+#else
 #define USBH_DEBUG_LEVEL      0U
+#endif
 
 /*----------   -----------*/
 #define USBH_USE_OS      0U

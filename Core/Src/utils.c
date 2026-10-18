@@ -58,6 +58,10 @@ uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef d
         {
           if (deviceType == HUB_KEYBOARD)
           {
+            /* The HID decoder uses current_interface to select its FIFO.
+               Select the matching interface before decoding a composite
+               keyboard/mouse device. */
+            phost->device.current_interface = interface;
             return (uint8_t *)USBH_HID_GetKeybdInfo(phost);
           }
 
@@ -67,6 +71,7 @@ uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef d
         {
           if (deviceType == HUB_MOUSE)
           {
+            phost->device.current_interface = interface;
             return (uint8_t *)USBH_HID_GetMouseInfo(phost);
           }
 
@@ -77,6 +82,7 @@ uint8_t *USBH_Get_Device_Data_Host(USBH_HandleTypeDef *phost,HUB_DEVICETypeDef d
 
           if (deviceType == HUB_GAMEPAD)
           {
+            phost->device.current_interface = interface;
             return (uint8_t *)USBH_HID_GetGamepadInfo(phost);
           }
         }
@@ -303,4 +309,3 @@ void SetLEDs()
 
 	 LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_13);
 }
-
